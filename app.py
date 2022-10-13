@@ -1,101 +1,121 @@
 import kraken.rpred
-from flask import Flask, redirect, request, jsonify
+import mxnet as mx
 from PIL import Image
-from datetime import datetime
 from kraken import binarization
-from kraken import pageseg
 from kraken import blla
-from kraken.lib import vgsl
 from kraken.lib import models
-from kraken import serialization
-from kraken import rpred
+from kraken.lib import vgsl
+from os import listdir
+from os.path import isfile, join
+from threading import RLock
+from threading import Thread
+import time
 
-segmentetion_model_path = 'models/biblialong02_se3_2_tl.mlmodel'
-recognition_model_path = 'models/sephardi_01.mlmodel'
+lock = RLock()
+threads = []
+models_scores = {}
+
+from textScoreGenerator.mlm.src.mlm.models import get_pretrained
+from textScoreGenerator.mlm.src.mlm.scorers import MLMScorerPT
+
+ctxs = [mx.cpu()]  # or, e.g., [mx.gpu(0), mx.gpu(1)]
+
+segmentetion_model_path = 'segmentation_models/biblialong02_se3_2_tl.mlmodel'
+
+vat44_image_path = 'pictures_examples/'
+
 segment_model = vgsl.TorchVGSLModel.load_model(segmentetion_model_path)
-rec_model = models.load_any(recognition_model_path)
-# img = Image.open("none1.png")
-# baseline_seg = blla.segment(img, model=segment_model)
-# print(baseline_seg)
-app = Flask(__name__)
 
-
-@app.route('/')
-def homepage():
-    return redirect("https://sofer.info/", code=302)
-
-
-@app.route('/upload', methods=['POST'])
-def upload():
-    try:
-        file = request.files['image']
-        # Read the image via file.stream
-        img = Image.open(file.stream)
-        # binarize image
-        bw_im = binarization.nlbin(img)
-        # segmentation
-        baseline_seg = blla.segment(bw_im, model=segment_model)
-        # recogine text
-        pred_it = kraken.rpred.rpred(rec_model, bw_im, baseline_seg)
-
-        # build response
-        final_text = ''
-        for record in pred_it:
-            print(record)
-            final_text += str(record)
-
-        return jsonify({'msg': 'success', 'size': [img.width, img.height], 'text': final_text})
-    except Exception as err:
-        print(err)
-
-
-if __name__ == '__main__':
-    app.run()
+model, vocab, tokenizer = get_pretrained(ctxs, 'onlplab/alephbert-base')  # todo make dicta model support this
+scorer = MLMScorerPT(model, vocab, tokenizer, ctxs)
 
 
 def get_image_text(path_to_model, baseline_seg, bw_im):
     model = models.load_any(path_to_model)
     pred = kraken.rpred.rpred(model, bw_im, baseline_seg)
 
+    return pred
+
+
+def get_score_from_text(pred):
     # build text
-    final_text = ''
+    score = 0
     for record in pred:
-        final_text += str(record)
+        txt = str(record)
+        if len(txt) > 0:
+            score += scorer.score_sentences([txt])[0]
 
-    return final_text
-
-
-def get_score_from_text(text):
-    return 98.2
+    return score
 
 
-def model_select(img_path, models_dict):
+def model_select(imgs_path, models_dict):
     '''
-    :param img_path: str, Path to an image to check
+    :param imgs_path: str, Path to an image to check
     :param models_dict: A dictionary of models: {"model_name1", "path_to_model", "model_name2", "path_to_model2"}
     :return models with accuracy :
     '''
-    # Read the image via file.stream
-    img = Image.open(img_path)
-    # binarize image
-    bw_im = binarization.nlbin(img)
-    # segmentation
-    baseline_seg = blla.segment(bw_im, model=segment_model)
 
-    models_scores = {}
+    onlyfiles = [f for f in listdir(imgs_path) if isfile(join(imgs_path, f))]
 
-    for name, path in models_dict.items():
-        # using kraken and ocr models
-        text = get_image_text(path, baseline_seg, bw_im)
-        # using language model
-        score = get_score_from_text(text)
-        models_scores[name] = score
+
+    t = Thread(target=finshed_threads_printer, args=[])
+    t.start()
+
+    for file in onlyfiles:
+        # Read the image via file.stream
+        print('starting file: ', join(imgs_path, file))
+        img = Image.open(join(imgs_path, file))
+        # binarize image
+        bw_im = binarization.nlbin(img)
+        # segmentation
+        baseline_seg = blla.segment(bw_im, model=segment_model)
+
+
+        for name, path in models_dict.items():
+            print("starting model: ", name)
+            t = Thread(target=read_txt_and_score, args=[baseline_seg, bw_im, name, path])
+            t.start()
+            threads.append(t)
 
     # Check image format
 
-    # Check models paths
-
+    # wait for all threads to finish
+    for x in threads:
+        x.join()
     # rc = {"model1": "rank1", "model2": "rank2"}
     return models_scores
 
 
+def read_txt_and_score(baseline_seg, bw_im, name, path):
+    if not (name in models_scores):
+        with lock:
+            models_scores[name] = 0
+    # using kraken and ocr models
+    pred = get_image_text(path, baseline_seg, bw_im)
+    # using language model
+    score = get_score_from_text(pred)
+    with lock:
+        models_scores[name] += score
+
+def finshed_threads_printer():
+    should_run = True
+
+    while should_run:
+        finshed_threads = 0
+        for x in threads:
+            if not x.is_alive():
+                finshed_threads += 1
+
+        print(finshed_threads, " finshed out of ", len(threads))
+
+        if finshed_threads == len(threads) and len(threads) != 0:
+            should_run = False
+
+        time.sleep(1)
+
+
+selected_models = {"ashkenazy": "models/ashkenazy.mlmodel", "sephardi": "models/sephardi.mlmodel", "vat44": "models/vat44"
+                                                                                                   ".mlmodel"}
+scores = model_select(vat44_image_path, selected_models)
+
+print(scores)
