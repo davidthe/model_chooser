@@ -1,4 +1,4 @@
-# Model chooser
+# Model Chooser
 An asynchronous ocr models scoring based on nlp methods,
 this repo is under development.
 
