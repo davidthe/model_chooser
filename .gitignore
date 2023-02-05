@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Big files
+textScoreGenerator/lm-dicta/pytorch_model.bin

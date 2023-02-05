@@ -141,7 +141,10 @@ def get_pretrained(ctxs: List[mx.Context], name: str = 'bert-base-en-uncased', p
             #     }
             # )
             # model.load_state_dict(new_state_dict)
-
+        elif name is "dicta":
+            model, loading_info = BertForMaskedLMOptimized.from_pretrained(params_file, output_loading_info=True)
+            vocab = None
+            tokenizer = None
         else:
             # raise ValueError("Model '{}' is not currently a supported PyTorch model".format(name))
             if params_file is None:

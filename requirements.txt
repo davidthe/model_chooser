@@ -1,4 +1,11 @@
 Flask
 gunicorn
-Pillow
-kraken
+Pillow~=9.1.0
+kraken~=4.1.2
+mxnet~=1.9.1
+transformers~=4.23.0
+torch~=1.11.0
+numpy~=1.22.3
+gluonnlp~=0.10.0
+mosestokenizer~=1.2.1
+setuptools~=57.0.0
