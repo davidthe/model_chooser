@@ -9,6 +9,12 @@ pip install -r requirements.txt
 ```
 
 ## configurations
+To run the program with dicta language model you must add the language model to this folder:
+```
+textScoreGenerator/lm-dicta/pytorch_model.bin
+```
+
+
 Make sure to update models and images,
 Then run app.py
 
