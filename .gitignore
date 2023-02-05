@@ -130,3 +130,8 @@ dmypy.json
 
 # Big files
 textScoreGenerator/lm-dicta/pytorch_model.bin
+
+# /env
+.env/
+env/
+.idea/
