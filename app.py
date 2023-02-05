@@ -35,11 +35,9 @@ ctxs = [mx.cpu()]  # or, e.g., [mx.gpu(0), mx.gpu(1)] todo try to use gpu
 
 segmentetion_model_path = 'segmentation_models/biblialong02_se3_2_tl.mlmodel'
 
-vat44_image_path = 'pictures_examples/'
+vat44_image_path = 'pictures/'
 
 segment_model = vgsl.TorchVGSLModel.load_model(segmentetion_model_path)
-
-
 
 if run_with_dicta_model:
     # init dicta model
@@ -50,6 +48,7 @@ if run_with_dicta_model:
 else:
     model, vocab, tokenizer = get_pretrained(ctxs, 'onlplab/alephbert-base')
     scorer = MLMScorerPT(model, vocab, tokenizer, ctxs)
+
 
 def get_image_text(model_name, baseline_seg, bw_im):
     model = models_load_dict[model_name]
@@ -167,17 +166,19 @@ def read_and_segment_image(imgs_path, image_name, segmentations):
 
     segmentations_dict[image_name] = {"bw_im": bw_im, "baseline_seg": baseline_seg}
 
+
 def model_select(imgs_path, models_dict, segmentations=None):
-    '''
+    """
     :param imgs_path: str, Path to the folder containing the images to check
     :param models_dict: A dictionary of models: {"model_name1", "path_to_model", "model_name2", "path_to_model2"}
     :param optional segmentations: A dictionary of the images segmentations:
     {"imageName": segmentation object ( Dict[str, Any] )}
     :return models with accuracy :
     # rc = {"model1": "rank1", "model2": "rank2"}
-    '''
+    """
 
-    images = [f for f in listdir(imgs_path) if join(imgs_path, f).lower().endswith(('.png', '.jpg', '.jpeg', '.tiff', '.bmp', '.gif'))]
+    images = [f for f in listdir(imgs_path) if
+              join(imgs_path, f).lower().endswith(('.png', '.jpg', '.jpeg', '.tiff', '.bmp', '.gif'))]
 
     t = Thread(target=finshed_threads_printer, args=[])
     t.start()
