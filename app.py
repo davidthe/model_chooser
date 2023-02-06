@@ -1,7 +1,7 @@
 import time
 import warnings
 from os import listdir
-from os.path import isfile, join
+from os.path import join
 from threading import RLock
 from threading import Thread
 
@@ -12,6 +12,7 @@ from kraken import binarization
 from kraken import blla
 from kraken.lib import models
 from kraken.lib import vgsl
+from kraken import serialization
 
 from textScoreGenerator.mlm.src.mlm.models import get_pretrained
 from textScoreGenerator.mlm.src.mlm.scorers import MLMScorerPT
@@ -29,6 +30,7 @@ images_threads = []
 models_scores = {}
 models_load_dict = {}
 segmentations_dict = {}
+xml_dict = {}
 
 ctxs = [mx.cpu()]  # or, e.g., [mx.gpu(0), mx.gpu(1)] todo try to use gpu
 # ctxs = [mx.gpu(0), mx.gpu(1)]
@@ -84,7 +86,7 @@ def get_score_from_text(pred):
     return score
 
 
-def read_txt_and_score(baseline_seg, bw_im, model_name, image_name):
+def read_txt_and_score(imgs_path, baseline_seg, bw_im, model_name, image_name):
     if not (model_name in models_scores):
         with model_lock:
             models_scores[model_name] = 0
@@ -96,6 +98,8 @@ def read_txt_and_score(baseline_seg, bw_im, model_name, image_name):
 
     # using kraken and ocr models
     pred = get_image_text(model_name, baseline_seg, bw_im)
+
+
 
     with printing_lock:
         print("--- reading one image took %s seconds ---" % (time.time() - start_time))
@@ -115,6 +119,11 @@ def read_txt_and_score(baseline_seg, bw_im, model_name, image_name):
     with printing_lock:
         print("--- scoring one image took %s seconds ---" % (time.time() - start_time))
 
+    # build alto from ocr response
+    records = [record for record in pred]
+    alto = serialization.serialize(records, image_name=imgs_path + image_name, image_size=bw_im.size,
+                                   template='alto')
+    xml_dict[model_name + image_name] = alto
 
 def finshed_threads_printer():
     should_run = True
@@ -207,7 +216,7 @@ def model_select(imgs_path, models_dict, segmentations=None):
         for model_name, _ in models_dict.items():
             with printing_lock:
                 print("starting model: ", model_name)
-            t = Thread(target=read_txt_and_score, args=[segmentations_dict[image_name]["baseline_seg"],
+            t = Thread(target=read_txt_and_score, args=[imgs_path, segmentations_dict[image_name]["baseline_seg"],
                                                         segmentations_dict[image_name]["bw_im"],
                                                         model_name, image_name])
             t.start()
@@ -216,8 +225,9 @@ def model_select(imgs_path, models_dict, segmentations=None):
     # wait for all threads to finish
     for x in threads:
         x.join()
+
     # rc = {"model1": "rank1", "model2": "rank2"}
-    return models_scores
+    return models_scores, xml_dict
 
 
 # example
