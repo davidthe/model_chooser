@@ -1,5 +1,7 @@
 import time
 import warnings
+import os
+import copy
 from os import listdir
 from os.path import join
 from threading import RLock
@@ -18,12 +20,26 @@ from textScoreGenerator.mlm.src.mlm.models import get_pretrained
 from textScoreGenerator.mlm.src.mlm.scorers import MLMScorerPT
 from textScoreGenerator.tokenizer.dictatokenizer import DictaAutoTokenizer
 
+
+class django_setting():
+    def __init__(self):
+        self.PIPELINE = {"segmentation_model": 'segmentation_models/biblialong02_se3_2_tl.mlmodel',
+                         "out_trans_path": 'xml_output'}
+
+try:
+    from django.conf import settings
+except Exception:
+    settings = django_setting()
+
+# remove this
+settings = django_setting()
+
 warnings.filterwarnings("ignore")  # disable this line if u want to see all the warnings
 
 model_lock = RLock()
 printing_lock = RLock()
 
-run_with_dicta_model = False
+run_with_dicta_model = True
 
 threads = []
 images_threads = []
@@ -35,13 +51,12 @@ xml_dict = {}
 ctxs = [mx.cpu()]  # or, e.g., [mx.gpu(0), mx.gpu(1)] todo try to use gpu
 # ctxs = [mx.gpu(0), mx.gpu(1)]
 
-segmentetion_model_path = 'segmentation_models/biblialong02_se3_2_tl.mlmodel'
-
-vat44_image_path = 'pictures_examples/'
+# segmentetion_model_path = 'segmentation_models/biblialong02_se3_2_tl.mlmodel'
+segmentetion_model_path = settings.PIPELINE["segmentation_model"]
+xml_output_path = settings.PIPELINE["out_trans_path"]
+images_path = 'pictures_examples/'
 
 segment_model = vgsl.TorchVGSLModel.load_model(segmentetion_model_path)
-
-
 
 if run_with_dicta_model:
     # init dicta model
@@ -52,6 +67,7 @@ if run_with_dicta_model:
 else:
     model, vocab, tokenizer = get_pretrained(ctxs, 'onlplab/alephbert-base')
     scorer = MLMScorerPT(model, vocab, tokenizer, ctxs)
+
 
 def get_image_text(model_name, baseline_seg, bw_im):
     model = models_load_dict[model_name]
@@ -98,8 +114,7 @@ def read_txt_and_score(imgs_path, baseline_seg, bw_im, model_name, image_name):
 
     # using kraken and ocr models
     pred = get_image_text(model_name, baseline_seg, bw_im)
-
-
+    new_pred = copy.deepcopy(pred)
 
     with printing_lock:
         print("--- reading one image took %s seconds ---" % (time.time() - start_time))
@@ -110,6 +125,8 @@ def read_txt_and_score(imgs_path, baseline_seg, bw_im, model_name, image_name):
     with printing_lock:
         print("scoring: ", image_name, " with model: ", model_name)
     score = get_score_from_text(pred)
+    with printing_lock:
+        print(score)
 
     with model_lock:
         models_scores[model_name] += score
@@ -120,10 +137,13 @@ def read_txt_and_score(imgs_path, baseline_seg, bw_im, model_name, image_name):
         print("--- scoring one image took %s seconds ---" % (time.time() - start_time))
 
     # build alto from ocr response
-    records = [record for record in pred]
-    alto = serialization.serialize(records, image_name=imgs_path + image_name, image_size=bw_im.size,
+    recs = [r for r in new_pred]
+    with printing_lock:
+        print(recs)
+    alto = serialization.serialize(recs, image_name=imgs_path + image_name, image_size=bw_im.size,
                                    template='alto')
     xml_dict[model_name + image_name] = alto
+
 
 def finshed_threads_printer():
     should_run = True
@@ -176,6 +196,7 @@ def read_and_segment_image(imgs_path, image_name, segmentations):
 
     segmentations_dict[image_name] = {"bw_im": bw_im, "baseline_seg": baseline_seg}
 
+
 def model_select(imgs_path, models_dict, segmentations=None):
     '''
     :param imgs_path: str, Path to the folder containing the images to check
@@ -186,7 +207,8 @@ def model_select(imgs_path, models_dict, segmentations=None):
     # rc = {"model1": "rank1", "model2": "rank2"}
     '''
 
-    images = [f for f in listdir(imgs_path) if join(imgs_path, f).lower().endswith(('.png', '.jpg', '.jpeg', '.tiff', '.bmp', '.gif'))]
+    images = [f for f in listdir(imgs_path) if
+              join(imgs_path, f).lower().endswith(('.png', '.jpg', '.jpeg', '.tiff', '.bmp', '.gif'))]
 
     t = Thread(target=finshed_threads_printer, args=[])
     t.start()
@@ -226,16 +248,36 @@ def model_select(imgs_path, models_dict, segmentations=None):
     for x in threads:
         x.join()
 
+    # ---- write xml files --------------
+    try:
+        selected_model = min(models_scores, key=models_scores.get)
+
+        if not os.path.isdir(xml_output_path):
+            os.makedirs(xml_output_path)
+
+        keys_xmls = [k for k in list(xml_dict.keys()) if selected_model in k]
+        for key in keys_xmls:
+            with open(xml_output_path + '/' + key.replace(".jpg", "") + '.xml', 'w') as fp:
+                fp.write(xml_dict[key])
+    except Exception:
+        print("fail to save output xmls")
+
+    # -----------------------------------
+
     # rc = {"model1": "rank1", "model2": "rank2"}
-    return models_scores, xml_dict
+    return models_scores
 
 
 # example
+
+
+# remove this
+
 selected_models = {"ashkenazy": "models/ashkenazy.mlmodel", "sephardi": "models/sephardi.mlmodel",
                    "vat44": "models/vat44"
                             ".mlmodel"}
 
-scores = model_select(vat44_image_path, selected_models)
+scores = model_select(images_path, selected_models)
 
 with printing_lock:
     print(scores)
