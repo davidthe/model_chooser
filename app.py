@@ -23,7 +23,7 @@ from textScoreGenerator.tokenizer.dictatokenizer import DictaAutoTokenizer
 
 class django_setting():
     def __init__(self):
-        self.PIPELINE = {"segmentation_model": 'segmentation_models/biblialong02_se3_2_tl.mlmodel',
+        self.PIPELINE = {"segmentation_model": '~/Repositories/model_chooser/segmentation_models/biblialong02_se3_2_tl.mlmodel',
                          "out_trans_path": 'xml_output'}
 
 try:
@@ -38,7 +38,7 @@ warnings.filterwarnings("ignore")  # disable this line if u want to see all the 
 
 model_lock = RLock()
 printing_lock = RLock()
-
+xml_outputs = False
 run_with_dicta_model = True
 
 threads = []
@@ -54,13 +54,13 @@ ctxs = [mx.cpu()]  # or, e.g., [mx.gpu(0), mx.gpu(1)] todo try to use gpu
 # segmentetion_model_path = 'segmentation_models/biblialong02_se3_2_tl.mlmodel'
 segmentetion_model_path = settings.PIPELINE["segmentation_model"]
 xml_output_path = settings.PIPELINE["out_trans_path"]
-images_path = 'pictures_examples/'
+images_path = '/home/userm/Repositories/model_chooser/pictures_examples/'
 
 segment_model = vgsl.TorchVGSLModel.load_model(segmentetion_model_path)
 
 if run_with_dicta_model:
     # init dicta model
-    dicta_model_path = './textScoreGenerator/lm-dicta'
+    dicta_model_path = '/home/userm/Repositories/model_chooser/textScoreGenerator/lm-dicta'
     dicta_tokenizer = DictaAutoTokenizer.from_pretrained(dicta_model_path)
     dicta_model, dicta_vocab, _ = get_pretrained(ctxs=ctxs, name="dicta", params_file=dicta_model_path)
     dicta_scorer = MLMScorerPT(dicta_model, dicta_vocab, dicta_tokenizer, ctxs)
@@ -102,7 +102,7 @@ def get_score_from_text(pred):
     return score
 
 
-def read_txt_and_score(imgs_path, baseline_seg, bw_im, model_name, image_name):
+def read_txt_and_score(baseline_seg, bw_im, model_name, image_name):
     if not (model_name in models_scores):
         with model_lock:
             models_scores[model_name] = 0
@@ -140,7 +140,7 @@ def read_txt_and_score(imgs_path, baseline_seg, bw_im, model_name, image_name):
     recs = [r for r in new_pred]
     with printing_lock:
         print(recs)
-    alto = serialization.serialize(recs, image_name=imgs_path + image_name, image_size=bw_im.size,
+    alto = serialization.serialize(recs, image_name=image_name, image_size=bw_im.size,
                                    template='alto')
     xml_dict[model_name + image_name] = alto
 
@@ -179,7 +179,8 @@ def read_and_segment_image(imgs_path, image_name, segmentations):
     with printing_lock:
         print('convert image to black and white')
     # binarize image
-    bw_im = binarization.nlbin(img)
+    # bw_im = binarization.nlbin(img)
+    bw_im = img
 
     with printing_lock:
         print("--- making single image bw took %s seconds ---" % (time.time() - start_time))
@@ -197,8 +198,9 @@ def read_and_segment_image(imgs_path, image_name, segmentations):
     segmentations_dict[image_name] = {"bw_im": bw_im, "baseline_seg": baseline_seg}
 
 
-def model_select(imgs_path, models_dict, segmentations=None):
+def model_select(imgs_path, models_dict, segmentations=None, have_xml_outputs=False):
     '''
+    :param have_xml_outputs define if xmls of all the models will be saved
     :param imgs_path: str, Path to the folder containing the images to check
     :param models_dict: A dictionary of models: {"model_name1", "path_to_model", "model_name2", "path_to_model2"}
     :param optional segmentations: A dictionary of the images segmentations:
@@ -206,7 +208,7 @@ def model_select(imgs_path, models_dict, segmentations=None):
     :return models with accuracy :
     # rc = {"model1": "rank1", "model2": "rank2"}
     '''
-
+    xml_outputs = have_xml_outputs
     images = [f for f in listdir(imgs_path) if
               join(imgs_path, f).lower().endswith(('.png', '.jpg', '.jpeg', '.tiff', '.bmp', '.gif'))]
 
@@ -238,7 +240,7 @@ def model_select(imgs_path, models_dict, segmentations=None):
         for model_name, _ in models_dict.items():
             with printing_lock:
                 print("starting model: ", model_name)
-            t = Thread(target=read_txt_and_score, args=[imgs_path, segmentations_dict[image_name]["baseline_seg"],
+            t = Thread(target=read_txt_and_score, args=[segmentations_dict[image_name]["baseline_seg"],
                                                         segmentations_dict[image_name]["bw_im"],
                                                         model_name, image_name])
             t.start()
@@ -254,8 +256,11 @@ def model_select(imgs_path, models_dict, segmentations=None):
 
         if not os.path.isdir(xml_output_path):
             os.makedirs(xml_output_path)
+        if xml_outputs:
+            keys_xmls = [k for k in list(xml_dict.keys())]
+        else:
+            keys_xmls = [k for k in list(xml_dict.keys()) if selected_model in k]
 
-        keys_xmls = [k for k in list(xml_dict.keys()) if selected_model in k]
         for key in keys_xmls:
             with open(xml_output_path + '/' + key.replace(".jpg", "") + '.xml', 'w') as fp:
                 fp.write(xml_dict[key])
@@ -277,7 +282,7 @@ selected_models = {"ashkenazy": "models/ashkenazy.mlmodel", "sephardi": "models/
                    "vat44": "models/vat44"
                             ".mlmodel"}
 
-scores = model_select(images_path, selected_models)
-
-with printing_lock:
-    print(scores)
+# scores = model_select(images_path, selected_models)
+#
+# with printing_lock:
+#     print(scores)
