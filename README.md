@@ -24,10 +24,10 @@ Then run app.py
 
 # Docs(under development).
 
-## Literature review:
+## Literature Review:
 https://docs.google.com/document/d/1inA-l1L3_1SUkG7iDhUxONMhnoe8YkbIZt7dWHzMC9c/edit?usp=drivesdk
 
-## Research suggestion:
+## Research Proposal:
 https://docs.google.com/document/d/1-OAgWzV8ULlZBzVs6juUIHwQpRKOXJDU1KLpnYKL2ZA/edit?usp=drivesdk
 
 ## Final:
