@@ -38,7 +38,7 @@ images_path = '/home/userm/Repositories/model_chooser/pictures_examples/'
 models_results = {}
 # scores = model_select(images_path, selected_models, have_xml_outputs=True)
 # just for now
-scores = {'ashkenazy': 3219.6986465500668, 'sephardi': 3097.8383238322567, 'vat44': 2392.2141431979635, 'bibilia9': 1979.1274481718428}
+scores = {'italian_7': 2919.560908225423, 'italian_7_retrained_bnf150_6p': 5771.60238224268, 'prenumeranten': 5122.902326151729, 'sinai_no_voc_61': 3871.3654133938253}
 print(scores)
 
 

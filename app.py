@@ -277,11 +277,11 @@ def model_select(imgs_path, models_dict, segmentations=None, have_xml_outputs=Fa
 
 
 # remove this
-
-selected_models = {"ashkenazy": "models/ashkenazy.mlmodel", "sephardi": "models/sephardi.mlmodel",
-                   "vat44": "models/vat44"
-                            ".mlmodel", "bibilia9": "models/biblia9.mlmodel"}
-
+#
+# selected_models = {"ashkenazy": "models/ashkenazy.mlmodel", "sephardi": "models/sephardi.mlmodel",
+#                    "vat44": "models/vat44"
+#                             ".mlmodel", "bibilia9": "models/biblia9.mlmodel"}
+#
 
 selected_models = {"italian_7": "models/newModels/italian_7.mlmodel",
                    "italian_7_retrained_bnf150_6p": "models/newModels/italian_7_retrained_bnf150_6p.mlmodel",
