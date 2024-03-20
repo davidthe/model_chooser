@@ -81,8 +81,8 @@ def get_score_from_text(pred):
     score = 0
     txt = ""
     for record in pred:
-        txt += str(record) + ' '
-        if len(txt) > 1:
+        txt += str(record) + '\n'
+        if len(txt) > 1 and txt.count('\n') > 2:
             try:
                 # with printing_lock:
                 #     print(threading.get_native_id(), ": scoring txt: ", txt)
@@ -280,9 +280,15 @@ def model_select(imgs_path, models_dict, segmentations=None, have_xml_outputs=Fa
 
 selected_models = {"ashkenazy": "models/ashkenazy.mlmodel", "sephardi": "models/sephardi.mlmodel",
                    "vat44": "models/vat44"
-                            ".mlmodel"}
+                            ".mlmodel", "bibilia9": "models/biblia9.mlmodel"}
 
-# scores = model_select(images_path, selected_models)
-#
-# with printing_lock:
-#     print(scores)
+
+selected_models = {"italian_7": "models/newModels/italian_7.mlmodel",
+                   "italian_7_retrained_bnf150_6p": "models/newModels/italian_7_retrained_bnf150_6p.mlmodel",
+                   "prenumeranten": "models/newModels/prenumeranten.mlmodel",
+                   "sinai_no_voc_61": "models/newModels/sinai_no_voc_61.mlmodel"}
+
+scores = model_select(images_path, selected_models, have_xml_outputs=True)
+
+with printing_lock:
+    print(scores)
