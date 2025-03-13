@@ -1,6 +1,5 @@
 # Model Chooser
 An asynchronous ocr models scoring based on nlp methods,
-this repo is under development.
 
 ## Installation 
 Python 3.6+ is required. Clone this repository and install:
