@@ -22,7 +22,7 @@ Then run app.py
 
 
 
-# Docs(under development).
+# Docs.
 
 ## Literature Review:
 https://docs.google.com/document/d/15F50KxEbxRpCdTUXJtYKSUQJr2e3fvkJXMTZWwWrNmM/edit?usp=sharing
