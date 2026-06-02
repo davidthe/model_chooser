@@ -40,6 +40,7 @@ model_lock = RLock()
 printing_lock = RLock()
 xml_outputs = False
 run_with_dicta_model = True
+number_of_lines_to_concat = 1
 
 threads = []
 images_threads = []
@@ -82,7 +83,7 @@ def get_score_from_text(pred):
     txt = ""
     for record in pred:
         txt += str(record) + '\n'
-        if len(txt) > 1 and txt.count('\n') > 2:
+        if len(txt) > 1 and txt.count('\n') > number_of_lines_to_concat:
             try:
                 # with printing_lock:
                 #     print(threading.get_native_id(), ": scoring txt: ", txt)
@@ -198,7 +199,7 @@ def read_and_segment_image(imgs_path, image_name, segmentations):
     segmentations_dict[image_name] = {"bw_im": bw_im, "baseline_seg": baseline_seg}
 
 
-def model_select(imgs_path, models_dict, segmentations=None, have_xml_outputs=False):
+def model_select(imgs_path, models_dict, segmentations=None, have_xml_outputs=False, concat_lines = 1):
     '''
     :param have_xml_outputs define if xmls of all the models will be saved
     :param imgs_path: str, Path to the folder containing the images to check
@@ -208,6 +209,7 @@ def model_select(imgs_path, models_dict, segmentations=None, have_xml_outputs=Fa
     :return models with accuracy :
     # rc = {"model1": "rank1", "model2": "rank2"}
     '''
+    number_of_lines_to_concat = concat_lines
     xml_outputs = have_xml_outputs
     images = [f for f in listdir(imgs_path) if
               join(imgs_path, f).lower().endswith(('.png', '.jpg', '.jpeg', '.tiff', '.bmp', '.gif'))]
@@ -287,8 +289,8 @@ selected_models = {"italian_7": "models/newModels/italian_7.mlmodel",
                    "italian_7_retrained_bnf150_6p": "models/newModels/italian_7_retrained_bnf150_6p.mlmodel",
                    "prenumeranten": "models/newModels/prenumeranten.mlmodel",
                    "sinai_no_voc_61": "models/newModels/sinai_no_voc_61.mlmodel"}
-
-scores = model_select(images_path, selected_models, have_xml_outputs=True)
-
-with printing_lock:
-    print(scores)
+#
+# scores = model_select(images_path, selected_models, have_xml_outputs=True, concat_lines=2)
+#
+# with printing_lock:
+#     print(scores)

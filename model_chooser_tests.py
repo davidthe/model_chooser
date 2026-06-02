@@ -4,7 +4,10 @@ from os import walk
 from evaluation import *
 import Levenshtein
 from jiwer import wer, cer
-
+import pandas as pd
+import seaborn as sns
+import sys
+import numpy
 
 def calculate_levenshtein_distance(gt_text, ocr_text):
     """
@@ -73,9 +76,9 @@ for model in models_results.keys():
     model_response = ' '.join(models_results[model])
     print("model: ", model, " response: ", model_response)
     models_levenstian_distance[model] = calculate_levenshtein_distance(gt, model_response)
-    models_levenstian_distance_ratio[model] = calculate_levenshtein_distance(gt, model_response) * 10
-    models_wer_scores[model] = calculate_wer(gt, model_response) * 100
-    models_cer_scores[model] = calculate_cer(gt, model_response) * 100
+    models_levenstian_distance_ratio[model] = calculate_levenshtein_distance(gt, model_response)
+    models_wer_scores[model] = calculate_wer(gt, model_response)
+    models_cer_scores[model] = calculate_cer(gt, model_response)
 # create graph for each score
 
 print(models_evaluations)
@@ -126,6 +129,23 @@ plt.xticks([i + bar_width/2 for i in index], evaluation_keys)
 plt.legend()
 
 # Display the graph
+
+series1 = pd.Series(language_model_scores)
+series2 = pd.Series(levenshtein_scores)
+series3 = pd.Series(wer_scores)
+series4 = pd.Series(cer_scores)
+
+
+# Create a pandas DataFrame
+df = pd.DataFrame({'language_model_scores': series1, 'levenshtein_scores': series2, 'wer_scores': series3, 'cer_scores': series4})
+
+# Calculate correlation matrix
+correlation_matrix = df.corr()
 plt.show()
+numpy.printoptions(threshold=sys.maxsize)
 
-
+print(correlation_matrix)
+plt.figure(figsize=(8, 6))
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt=".2f", annot_kws={"size": 10})
+plt.title('Correlation Matrix')
+plt.show()
