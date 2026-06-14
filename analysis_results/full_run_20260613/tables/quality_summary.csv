@@ -1,0 +1,21 @@
+dataset,dataset_label,valid_rows,penalty_rows,missing_rows
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,21,0,0
+bnf150test2,BNF 150 test 2,14,0,0
+bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,77,56,0
+constantinople1520,Constantinople 1520,7,0,0
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,14,0,56
+matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,7,14,0
+midrashhagadoldvarim,Midrash Hagadol Dvarim,7,0,0
+mshuntington115,Bodleian MS Huntington 115,59,4,0
+munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,14,0,0
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,12,2,0
+neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,14,0,0
+oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,7,7,0
+parma3122test2,Parma 3122 test 2,14,0,0
+printeditionmantoue1544,Print edition Mantoue 1544,0,7,0
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,14,0,0
+vat44,Vat 44,0,7,77
+vatebr34,Vat Ebr 34,42,0,7
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,14,0,0
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,14,0,56
+vaybertaytshexperiment,Vayber Taytsh experiment,0,14,0

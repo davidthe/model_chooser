@@ -1,0 +1,36 @@
+{
+  "run_id": "full_run_20260613",
+  "datasets": [
+    "bnf150amitaitanchuma2",
+    "bnf150test2",
+    "bodleianoppenheimad",
+    "constantinople1520",
+    "huntingtonamitaitanchuma2",
+    "matteozzmsoxfordhuntington2",
+    "midrashhagadoldvarim",
+    "mshuntington115",
+    "munich229amitaitanchuma2",
+    "munichstaatsbibliothektest2",
+    "neubauer147amitaitanchuma2",
+    "oppaddfol3test2",
+    "parma3122test2",
+    "printeditionmantoue1544",
+    "seferhaikarimbnf740experimen",
+    "vat44",
+    "vatebr34",
+    "vatican34midrashtanchu",
+    "vatican44amitaimidrashtanchu",
+    "vaybertaytshexperiment"
+  ],
+  "models": [
+    "ashkenazy",
+    "biblia9",
+    "italian_7",
+    "prenumeranten",
+    "sephardi",
+    "sinai_no_voc_61",
+    "vat44"
+  ],
+  "rows": 658,
+  "results_root": "analysis_results/full_run_20260613"
+}

@@ -1,0 +1,197 @@
+dataset,dataset_label,image,image_stem,model,model_label,pll_score,wer,cer,levenshtein,gt_source,gt_file,prediction_file,gt_chars,pred_chars,issue
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,125_83eef_default.jpg,125_83eef_default,ashkenazy,ashkenazy,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/125_83eef_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,125_83eef_default.jpg,125_83eef_default,biblia9,biblia9,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/125_83eef_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,125_83eef_default.jpg,125_83eef_default,italian_7,italian 7,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/125_83eef_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,125_83eef_default.jpg,125_83eef_default,prenumeranten,prenumeranten,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/125_83eef_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,125_83eef_default.jpg,125_83eef_default,sephardi,sephardi,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/125_83eef_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,125_83eef_default.jpg,125_83eef_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/125_83eef_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,125_83eef_default.jpg,125_83eef_default,vat44,vat44,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/125_83eef_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,140_6438b_default.jpg,140_6438b_default,ashkenazy,ashkenazy,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/140_6438b_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,140_6438b_default.jpg,140_6438b_default,biblia9,biblia9,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/140_6438b_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,140_6438b_default.jpg,140_6438b_default,italian_7,italian 7,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/140_6438b_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,140_6438b_default.jpg,140_6438b_default,prenumeranten,prenumeranten,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/140_6438b_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,140_6438b_default.jpg,140_6438b_default,sephardi,sephardi,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/140_6438b_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,140_6438b_default.jpg,140_6438b_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/140_6438b_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,140_6438b_default.jpg,140_6438b_default,vat44,vat44,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/140_6438b_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,183_0f70d_default.jpg,183_0f70d_default,ashkenazy,ashkenazy,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/183_0f70d_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,183_0f70d_default.jpg,183_0f70d_default,biblia9,biblia9,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/183_0f70d_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,183_0f70d_default.jpg,183_0f70d_default,italian_7,italian 7,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/183_0f70d_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,183_0f70d_default.jpg,183_0f70d_default,prenumeranten,prenumeranten,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/183_0f70d_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,183_0f70d_default.jpg,183_0f70d_default,sephardi,sephardi,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/183_0f70d_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,183_0f70d_default.jpg,183_0f70d_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/183_0f70d_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,183_0f70d_default.jpg,183_0f70d_default,vat44,vat44,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/183_0f70d_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,198_859b9_default.jpg,198_859b9_default,ashkenazy,ashkenazy,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/198_859b9_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,198_859b9_default.jpg,198_859b9_default,biblia9,biblia9,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/198_859b9_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,198_859b9_default.jpg,198_859b9_default,italian_7,italian 7,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/198_859b9_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,198_859b9_default.jpg,198_859b9_default,prenumeranten,prenumeranten,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/198_859b9_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,198_859b9_default.jpg,198_859b9_default,sephardi,sephardi,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/198_859b9_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,198_859b9_default.jpg,198_859b9_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/198_859b9_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,198_859b9_default.jpg,198_859b9_default,vat44,vat44,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/198_859b9_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,207_414bf_default.jpg,207_414bf_default,ashkenazy,ashkenazy,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/207_414bf_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,207_414bf_default.jpg,207_414bf_default,biblia9,biblia9,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/207_414bf_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,207_414bf_default.jpg,207_414bf_default,italian_7,italian 7,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/207_414bf_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,207_414bf_default.jpg,207_414bf_default,prenumeranten,prenumeranten,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/207_414bf_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,207_414bf_default.jpg,207_414bf_default,sephardi,sephardi,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/207_414bf_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,207_414bf_default.jpg,207_414bf_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/207_414bf_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,207_414bf_default.jpg,207_414bf_default,vat44,vat44,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/207_414bf_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,216_b2421_default.jpg,216_b2421_default,ashkenazy,ashkenazy,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/216_b2421_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,216_b2421_default.jpg,216_b2421_default,biblia9,biblia9,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/216_b2421_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,216_b2421_default.jpg,216_b2421_default,italian_7,italian 7,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/216_b2421_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,216_b2421_default.jpg,216_b2421_default,prenumeranten,prenumeranten,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/216_b2421_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,216_b2421_default.jpg,216_b2421_default,sephardi,sephardi,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/216_b2421_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,216_b2421_default.jpg,216_b2421_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/216_b2421_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,216_b2421_default.jpg,216_b2421_default,vat44,vat44,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/216_b2421_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,318_48b41_default.jpg,318_48b41_default,ashkenazy,ashkenazy,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/318_48b41_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,318_48b41_default.jpg,318_48b41_default,biblia9,biblia9,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/318_48b41_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,318_48b41_default.jpg,318_48b41_default,italian_7,italian 7,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/318_48b41_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,318_48b41_default.jpg,318_48b41_default,prenumeranten,prenumeranten,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/318_48b41_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,318_48b41_default.jpg,318_48b41_default,sephardi,sephardi,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/318_48b41_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,318_48b41_default.jpg,318_48b41_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/318_48b41_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,318_48b41_default.jpg,318_48b41_default,vat44,vat44,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/318_48b41_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,380_52bbf_default.jpg,380_52bbf_default,ashkenazy,ashkenazy,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/380_52bbf_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,380_52bbf_default.jpg,380_52bbf_default,biblia9,biblia9,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/380_52bbf_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,380_52bbf_default.jpg,380_52bbf_default,italian_7,italian 7,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/380_52bbf_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,380_52bbf_default.jpg,380_52bbf_default,prenumeranten,prenumeranten,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/380_52bbf_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,380_52bbf_default.jpg,380_52bbf_default,sephardi,sephardi,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/380_52bbf_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,380_52bbf_default.jpg,380_52bbf_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/380_52bbf_default.txt,,0,0,missing_score
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,380_52bbf_default.jpg,380_52bbf_default,vat44,vat44,,,,,gt,datasets/huntingtonamitaitanchuma2/gt/380_52bbf_default.txt,,0,0,missing_score
+vat44,Vat 44,114_53763_default.jpg,114_53763_default,ashkenazy,ashkenazy,,,,,gt,datasets/vat44/gt/114_53763_default.txt,,0,0,missing_score
+vat44,Vat 44,114_53763_default.jpg,114_53763_default,biblia9,biblia9,,,,,gt,datasets/vat44/gt/114_53763_default.txt,,0,0,missing_score
+vat44,Vat 44,114_53763_default.jpg,114_53763_default,italian_7,italian 7,,,,,gt,datasets/vat44/gt/114_53763_default.txt,,0,0,missing_score
+vat44,Vat 44,114_53763_default.jpg,114_53763_default,prenumeranten,prenumeranten,,,,,gt,datasets/vat44/gt/114_53763_default.txt,,0,0,missing_score
+vat44,Vat 44,114_53763_default.jpg,114_53763_default,sephardi,sephardi,,,,,gt,datasets/vat44/gt/114_53763_default.txt,,0,0,missing_score
+vat44,Vat 44,114_53763_default.jpg,114_53763_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/vat44/gt/114_53763_default.txt,,0,0,missing_score
+vat44,Vat 44,114_53763_default.jpg,114_53763_default,vat44,vat44,,,,,gt,datasets/vat44/gt/114_53763_default.txt,,0,0,missing_score
+vat44,Vat 44,115_65184_default.jpg,115_65184_default,ashkenazy,ashkenazy,,,,,gt,datasets/vat44/gt/115_65184_default.txt,,0,0,missing_score
+vat44,Vat 44,115_65184_default.jpg,115_65184_default,biblia9,biblia9,,,,,gt,datasets/vat44/gt/115_65184_default.txt,,0,0,missing_score
+vat44,Vat 44,115_65184_default.jpg,115_65184_default,italian_7,italian 7,,,,,gt,datasets/vat44/gt/115_65184_default.txt,,0,0,missing_score
+vat44,Vat 44,115_65184_default.jpg,115_65184_default,prenumeranten,prenumeranten,,,,,gt,datasets/vat44/gt/115_65184_default.txt,,0,0,missing_score
+vat44,Vat 44,115_65184_default.jpg,115_65184_default,sephardi,sephardi,,,,,gt,datasets/vat44/gt/115_65184_default.txt,,0,0,missing_score
+vat44,Vat 44,115_65184_default.jpg,115_65184_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/vat44/gt/115_65184_default.txt,,0,0,missing_score
+vat44,Vat 44,115_65184_default.jpg,115_65184_default,vat44,vat44,,,,,gt,datasets/vat44/gt/115_65184_default.txt,,0,0,missing_score
+vat44,Vat 44,116_9e7c3_default.jpg,116_9e7c3_default,ashkenazy,ashkenazy,,,,,gt,datasets/vat44/gt/116_9e7c3_default.txt,,0,0,missing_score
+vat44,Vat 44,116_9e7c3_default.jpg,116_9e7c3_default,biblia9,biblia9,,,,,gt,datasets/vat44/gt/116_9e7c3_default.txt,,0,0,missing_score
+vat44,Vat 44,116_9e7c3_default.jpg,116_9e7c3_default,italian_7,italian 7,,,,,gt,datasets/vat44/gt/116_9e7c3_default.txt,,0,0,missing_score
+vat44,Vat 44,116_9e7c3_default.jpg,116_9e7c3_default,prenumeranten,prenumeranten,,,,,gt,datasets/vat44/gt/116_9e7c3_default.txt,,0,0,missing_score
+vat44,Vat 44,116_9e7c3_default.jpg,116_9e7c3_default,sephardi,sephardi,,,,,gt,datasets/vat44/gt/116_9e7c3_default.txt,,0,0,missing_score
+vat44,Vat 44,116_9e7c3_default.jpg,116_9e7c3_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/vat44/gt/116_9e7c3_default.txt,,0,0,missing_score
+vat44,Vat 44,116_9e7c3_default.jpg,116_9e7c3_default,vat44,vat44,,,,,gt,datasets/vat44/gt/116_9e7c3_default.txt,,0,0,missing_score
+vat44,Vat 44,117_78067_default.jpg,117_78067_default,ashkenazy,ashkenazy,,,,,gt,datasets/vat44/gt/117_78067_default.txt,,0,0,missing_score
+vat44,Vat 44,117_78067_default.jpg,117_78067_default,biblia9,biblia9,,,,,gt,datasets/vat44/gt/117_78067_default.txt,,0,0,missing_score
+vat44,Vat 44,117_78067_default.jpg,117_78067_default,italian_7,italian 7,,,,,gt,datasets/vat44/gt/117_78067_default.txt,,0,0,missing_score
+vat44,Vat 44,117_78067_default.jpg,117_78067_default,prenumeranten,prenumeranten,,,,,gt,datasets/vat44/gt/117_78067_default.txt,,0,0,missing_score
+vat44,Vat 44,117_78067_default.jpg,117_78067_default,sephardi,sephardi,,,,,gt,datasets/vat44/gt/117_78067_default.txt,,0,0,missing_score
+vat44,Vat 44,117_78067_default.jpg,117_78067_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/vat44/gt/117_78067_default.txt,,0,0,missing_score
+vat44,Vat 44,117_78067_default.jpg,117_78067_default,vat44,vat44,,,,,gt,datasets/vat44/gt/117_78067_default.txt,,0,0,missing_score
+vat44,Vat 44,118_c3980_default.jpg,118_c3980_default,ashkenazy,ashkenazy,,,,,gt,datasets/vat44/gt/118_c3980_default.txt,,0,0,missing_score
+vat44,Vat 44,118_c3980_default.jpg,118_c3980_default,biblia9,biblia9,,,,,gt,datasets/vat44/gt/118_c3980_default.txt,,0,0,missing_score
+vat44,Vat 44,118_c3980_default.jpg,118_c3980_default,italian_7,italian 7,,,,,gt,datasets/vat44/gt/118_c3980_default.txt,,0,0,missing_score
+vat44,Vat 44,118_c3980_default.jpg,118_c3980_default,prenumeranten,prenumeranten,,,,,gt,datasets/vat44/gt/118_c3980_default.txt,,0,0,missing_score
+vat44,Vat 44,118_c3980_default.jpg,118_c3980_default,sephardi,sephardi,,,,,gt,datasets/vat44/gt/118_c3980_default.txt,,0,0,missing_score
+vat44,Vat 44,118_c3980_default.jpg,118_c3980_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/vat44/gt/118_c3980_default.txt,,0,0,missing_score
+vat44,Vat 44,118_c3980_default.jpg,118_c3980_default,vat44,vat44,,,,,gt,datasets/vat44/gt/118_c3980_default.txt,,0,0,missing_score
+vat44,Vat 44,119_e539f_default.jpg,119_e539f_default,ashkenazy,ashkenazy,,,,,gt,datasets/vat44/gt/119_e539f_default.txt,,0,0,missing_score
+vat44,Vat 44,119_e539f_default.jpg,119_e539f_default,biblia9,biblia9,,,,,gt,datasets/vat44/gt/119_e539f_default.txt,,0,0,missing_score
+vat44,Vat 44,119_e539f_default.jpg,119_e539f_default,italian_7,italian 7,,,,,gt,datasets/vat44/gt/119_e539f_default.txt,,0,0,missing_score
+vat44,Vat 44,119_e539f_default.jpg,119_e539f_default,prenumeranten,prenumeranten,,,,,gt,datasets/vat44/gt/119_e539f_default.txt,,0,0,missing_score
+vat44,Vat 44,119_e539f_default.jpg,119_e539f_default,sephardi,sephardi,,,,,gt,datasets/vat44/gt/119_e539f_default.txt,,0,0,missing_score
+vat44,Vat 44,119_e539f_default.jpg,119_e539f_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/vat44/gt/119_e539f_default.txt,,0,0,missing_score
+vat44,Vat 44,119_e539f_default.jpg,119_e539f_default,vat44,vat44,,,,,gt,datasets/vat44/gt/119_e539f_default.txt,,0,0,missing_score
+vat44,Vat 44,11_1074c_default.jpg,11_1074c_default,ashkenazy,ashkenazy,,,,,gt,datasets/vat44/gt/11_1074c_default.txt,,0,0,missing_score
+vat44,Vat 44,11_1074c_default.jpg,11_1074c_default,biblia9,biblia9,,,,,gt,datasets/vat44/gt/11_1074c_default.txt,,0,0,missing_score
+vat44,Vat 44,11_1074c_default.jpg,11_1074c_default,italian_7,italian 7,,,,,gt,datasets/vat44/gt/11_1074c_default.txt,,0,0,missing_score
+vat44,Vat 44,11_1074c_default.jpg,11_1074c_default,prenumeranten,prenumeranten,,,,,gt,datasets/vat44/gt/11_1074c_default.txt,,0,0,missing_score
+vat44,Vat 44,11_1074c_default.jpg,11_1074c_default,sephardi,sephardi,,,,,gt,datasets/vat44/gt/11_1074c_default.txt,,0,0,missing_score
+vat44,Vat 44,11_1074c_default.jpg,11_1074c_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/vat44/gt/11_1074c_default.txt,,0,0,missing_score
+vat44,Vat 44,11_1074c_default.jpg,11_1074c_default,vat44,vat44,,,,,gt,datasets/vat44/gt/11_1074c_default.txt,,0,0,missing_score
+vat44,Vat 44,120_c9c80_default.jpg,120_c9c80_default,ashkenazy,ashkenazy,,,,,gt,datasets/vat44/gt/120_c9c80_default.txt,,0,0,missing_score
+vat44,Vat 44,120_c9c80_default.jpg,120_c9c80_default,biblia9,biblia9,,,,,gt,datasets/vat44/gt/120_c9c80_default.txt,,0,0,missing_score
+vat44,Vat 44,120_c9c80_default.jpg,120_c9c80_default,italian_7,italian 7,,,,,gt,datasets/vat44/gt/120_c9c80_default.txt,,0,0,missing_score
+vat44,Vat 44,120_c9c80_default.jpg,120_c9c80_default,prenumeranten,prenumeranten,,,,,gt,datasets/vat44/gt/120_c9c80_default.txt,,0,0,missing_score
+vat44,Vat 44,120_c9c80_default.jpg,120_c9c80_default,sephardi,sephardi,,,,,gt,datasets/vat44/gt/120_c9c80_default.txt,,0,0,missing_score
+vat44,Vat 44,120_c9c80_default.jpg,120_c9c80_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/vat44/gt/120_c9c80_default.txt,,0,0,missing_score
+vat44,Vat 44,120_c9c80_default.jpg,120_c9c80_default,vat44,vat44,,,,,gt,datasets/vat44/gt/120_c9c80_default.txt,,0,0,missing_score
+vat44,Vat 44,121_fc4b5_default.jpg,121_fc4b5_default,ashkenazy,ashkenazy,,,,,gt,datasets/vat44/gt/121_fc4b5_default.txt,,0,0,missing_score
+vat44,Vat 44,121_fc4b5_default.jpg,121_fc4b5_default,biblia9,biblia9,,,,,gt,datasets/vat44/gt/121_fc4b5_default.txt,,0,0,missing_score
+vat44,Vat 44,121_fc4b5_default.jpg,121_fc4b5_default,italian_7,italian 7,,,,,gt,datasets/vat44/gt/121_fc4b5_default.txt,,0,0,missing_score
+vat44,Vat 44,121_fc4b5_default.jpg,121_fc4b5_default,prenumeranten,prenumeranten,,,,,gt,datasets/vat44/gt/121_fc4b5_default.txt,,0,0,missing_score
+vat44,Vat 44,121_fc4b5_default.jpg,121_fc4b5_default,sephardi,sephardi,,,,,gt,datasets/vat44/gt/121_fc4b5_default.txt,,0,0,missing_score
+vat44,Vat 44,121_fc4b5_default.jpg,121_fc4b5_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/vat44/gt/121_fc4b5_default.txt,,0,0,missing_score
+vat44,Vat 44,121_fc4b5_default.jpg,121_fc4b5_default,vat44,vat44,,,,,gt,datasets/vat44/gt/121_fc4b5_default.txt,,0,0,missing_score
+vat44,Vat 44,16_26f8e_default.jpg,16_26f8e_default,ashkenazy,ashkenazy,,,,,gt,datasets/vat44/gt/16_26f8e_default.txt,,0,0,missing_score
+vat44,Vat 44,16_26f8e_default.jpg,16_26f8e_default,biblia9,biblia9,,,,,gt,datasets/vat44/gt/16_26f8e_default.txt,,0,0,missing_score
+vat44,Vat 44,16_26f8e_default.jpg,16_26f8e_default,italian_7,italian 7,,,,,gt,datasets/vat44/gt/16_26f8e_default.txt,,0,0,missing_score
+vat44,Vat 44,16_26f8e_default.jpg,16_26f8e_default,prenumeranten,prenumeranten,,,,,gt,datasets/vat44/gt/16_26f8e_default.txt,,0,0,missing_score
+vat44,Vat 44,16_26f8e_default.jpg,16_26f8e_default,sephardi,sephardi,,,,,gt,datasets/vat44/gt/16_26f8e_default.txt,,0,0,missing_score
+vat44,Vat 44,16_26f8e_default.jpg,16_26f8e_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/vat44/gt/16_26f8e_default.txt,,0,0,missing_score
+vat44,Vat 44,16_26f8e_default.jpg,16_26f8e_default,vat44,vat44,,,,,gt,datasets/vat44/gt/16_26f8e_default.txt,,0,0,missing_score
+vat44,Vat 44,6_254f4_default.jpg,6_254f4_default,ashkenazy,ashkenazy,,,,,gt,datasets/vat44/gt/6_254f4_default.txt,,0,0,missing_score
+vat44,Vat 44,6_254f4_default.jpg,6_254f4_default,biblia9,biblia9,,,,,gt,datasets/vat44/gt/6_254f4_default.txt,,0,0,missing_score
+vat44,Vat 44,6_254f4_default.jpg,6_254f4_default,italian_7,italian 7,,,,,gt,datasets/vat44/gt/6_254f4_default.txt,,0,0,missing_score
+vat44,Vat 44,6_254f4_default.jpg,6_254f4_default,prenumeranten,prenumeranten,,,,,gt,datasets/vat44/gt/6_254f4_default.txt,,0,0,missing_score
+vat44,Vat 44,6_254f4_default.jpg,6_254f4_default,sephardi,sephardi,,,,,gt,datasets/vat44/gt/6_254f4_default.txt,,0,0,missing_score
+vat44,Vat 44,6_254f4_default.jpg,6_254f4_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/vat44/gt/6_254f4_default.txt,,0,0,missing_score
+vat44,Vat 44,6_254f4_default.jpg,6_254f4_default,vat44,vat44,,,,,gt,datasets/vat44/gt/6_254f4_default.txt,,0,0,missing_score
+vatebr34,Vat Ebr 34,10_de21e_default.jpg,10_de21e_default,ashkenazy,ashkenazy,,,,,gt,datasets/vatebr34/gt/10_de21e_default.txt,,0,0,missing_score
+vatebr34,Vat Ebr 34,10_de21e_default.jpg,10_de21e_default,biblia9,biblia9,,,,,gt,datasets/vatebr34/gt/10_de21e_default.txt,,0,0,missing_score
+vatebr34,Vat Ebr 34,10_de21e_default.jpg,10_de21e_default,italian_7,italian 7,,,,,gt,datasets/vatebr34/gt/10_de21e_default.txt,,0,0,missing_score
+vatebr34,Vat Ebr 34,10_de21e_default.jpg,10_de21e_default,prenumeranten,prenumeranten,,,,,gt,datasets/vatebr34/gt/10_de21e_default.txt,,0,0,missing_score
+vatebr34,Vat Ebr 34,10_de21e_default.jpg,10_de21e_default,sephardi,sephardi,,,,,gt,datasets/vatebr34/gt/10_de21e_default.txt,,0,0,missing_score
+vatebr34,Vat Ebr 34,10_de21e_default.jpg,10_de21e_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/vatebr34/gt/10_de21e_default.txt,,0,0,missing_score
+vatebr34,Vat Ebr 34,10_de21e_default.jpg,10_de21e_default,vat44,vat44,,,,,gt,datasets/vatebr34/gt/10_de21e_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,172_41b9b_default.jpg,172_41b9b_default,ashkenazy,ashkenazy,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/172_41b9b_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,172_41b9b_default.jpg,172_41b9b_default,biblia9,biblia9,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/172_41b9b_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,172_41b9b_default.jpg,172_41b9b_default,italian_7,italian 7,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/172_41b9b_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,172_41b9b_default.jpg,172_41b9b_default,prenumeranten,prenumeranten,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/172_41b9b_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,172_41b9b_default.jpg,172_41b9b_default,sephardi,sephardi,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/172_41b9b_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,172_41b9b_default.jpg,172_41b9b_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/172_41b9b_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,172_41b9b_default.jpg,172_41b9b_default,vat44,vat44,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/172_41b9b_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,275_1c93f_default.jpg,275_1c93f_default,ashkenazy,ashkenazy,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/275_1c93f_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,275_1c93f_default.jpg,275_1c93f_default,biblia9,biblia9,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/275_1c93f_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,275_1c93f_default.jpg,275_1c93f_default,italian_7,italian 7,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/275_1c93f_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,275_1c93f_default.jpg,275_1c93f_default,prenumeranten,prenumeranten,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/275_1c93f_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,275_1c93f_default.jpg,275_1c93f_default,sephardi,sephardi,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/275_1c93f_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,275_1c93f_default.jpg,275_1c93f_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/275_1c93f_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,275_1c93f_default.jpg,275_1c93f_default,vat44,vat44,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/275_1c93f_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,318_06e85_default.jpg,318_06e85_default,ashkenazy,ashkenazy,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/318_06e85_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,318_06e85_default.jpg,318_06e85_default,biblia9,biblia9,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/318_06e85_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,318_06e85_default.jpg,318_06e85_default,italian_7,italian 7,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/318_06e85_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,318_06e85_default.jpg,318_06e85_default,prenumeranten,prenumeranten,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/318_06e85_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,318_06e85_default.jpg,318_06e85_default,sephardi,sephardi,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/318_06e85_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,318_06e85_default.jpg,318_06e85_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/318_06e85_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,318_06e85_default.jpg,318_06e85_default,vat44,vat44,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/318_06e85_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,327_e2363_default.jpg,327_e2363_default,ashkenazy,ashkenazy,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/327_e2363_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,327_e2363_default.jpg,327_e2363_default,biblia9,biblia9,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/327_e2363_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,327_e2363_default.jpg,327_e2363_default,italian_7,italian 7,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/327_e2363_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,327_e2363_default.jpg,327_e2363_default,prenumeranten,prenumeranten,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/327_e2363_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,327_e2363_default.jpg,327_e2363_default,sephardi,sephardi,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/327_e2363_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,327_e2363_default.jpg,327_e2363_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/327_e2363_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,327_e2363_default.jpg,327_e2363_default,vat44,vat44,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/327_e2363_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,347_a171b_default.jpg,347_a171b_default,ashkenazy,ashkenazy,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/347_a171b_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,347_a171b_default.jpg,347_a171b_default,biblia9,biblia9,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/347_a171b_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,347_a171b_default.jpg,347_a171b_default,italian_7,italian 7,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/347_a171b_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,347_a171b_default.jpg,347_a171b_default,prenumeranten,prenumeranten,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/347_a171b_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,347_a171b_default.jpg,347_a171b_default,sephardi,sephardi,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/347_a171b_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,347_a171b_default.jpg,347_a171b_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/347_a171b_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,347_a171b_default.jpg,347_a171b_default,vat44,vat44,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/347_a171b_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,353_aeb97_default.jpg,353_aeb97_default,ashkenazy,ashkenazy,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/353_aeb97_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,353_aeb97_default.jpg,353_aeb97_default,biblia9,biblia9,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/353_aeb97_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,353_aeb97_default.jpg,353_aeb97_default,italian_7,italian 7,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/353_aeb97_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,353_aeb97_default.jpg,353_aeb97_default,prenumeranten,prenumeranten,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/353_aeb97_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,353_aeb97_default.jpg,353_aeb97_default,sephardi,sephardi,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/353_aeb97_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,353_aeb97_default.jpg,353_aeb97_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/353_aeb97_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,353_aeb97_default.jpg,353_aeb97_default,vat44,vat44,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/353_aeb97_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,36_459a6_default.jpg,36_459a6_default,ashkenazy,ashkenazy,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/36_459a6_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,36_459a6_default.jpg,36_459a6_default,biblia9,biblia9,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/36_459a6_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,36_459a6_default.jpg,36_459a6_default,italian_7,italian 7,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/36_459a6_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,36_459a6_default.jpg,36_459a6_default,prenumeranten,prenumeranten,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/36_459a6_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,36_459a6_default.jpg,36_459a6_default,sephardi,sephardi,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/36_459a6_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,36_459a6_default.jpg,36_459a6_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/36_459a6_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,36_459a6_default.jpg,36_459a6_default,vat44,vat44,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/36_459a6_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,56_753b6_default.jpg,56_753b6_default,ashkenazy,ashkenazy,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/56_753b6_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,56_753b6_default.jpg,56_753b6_default,biblia9,biblia9,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/56_753b6_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,56_753b6_default.jpg,56_753b6_default,italian_7,italian 7,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/56_753b6_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,56_753b6_default.jpg,56_753b6_default,prenumeranten,prenumeranten,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/56_753b6_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,56_753b6_default.jpg,56_753b6_default,sephardi,sephardi,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/56_753b6_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,56_753b6_default.jpg,56_753b6_default,sinai_no_voc_61,sinai no voc 61,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/56_753b6_default.txt,,0,0,missing_score
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,56_753b6_default.jpg,56_753b6_default,vat44,vat44,,,,,gt,datasets/vatican44amitaimidrashtanchu/gt/56_753b6_default.txt,,0,0,missing_score

@@ -1,0 +1,21 @@
+dataset,dataset_label,best_pll_model,best_pll_model_label,best_wer_model,best_wer_model_label,best_cer_model,best_cer_model_label,best_lev_model,best_lev_model_label
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,sephardi,sephardi,italian_7,italian 7,italian_7,italian 7,italian_7,italian 7
+bnf150test2,BNF 150 test 2,italian_7,italian 7,italian_7,italian 7,italian_7,italian 7,italian_7,italian 7
+bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,biblia9,biblia9,italian_7,italian 7,italian_7,italian 7,italian_7,italian 7
+constantinople1520,Constantinople 1520,sinai_no_voc_61,sinai no voc 61,vat44,vat44,vat44,vat44,ashkenazy,ashkenazy
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,sephardi,sephardi,sephardi,sephardi,italian_7,italian 7,italian_7,italian 7
+matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,sinai_no_voc_61,sinai no voc 61,italian_7,italian 7,italian_7,italian 7,italian_7,italian 7
+midrashhagadoldvarim,Midrash Hagadol Dvarim,italian_7,italian 7,vat44,vat44,sinai_no_voc_61,sinai no voc 61,sinai_no_voc_61,sinai no voc 61
+mshuntington115,Bodleian MS Huntington 115,vat44,vat44,italian_7,italian 7,italian_7,italian 7,italian_7,italian 7
+munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,ashkenazy,ashkenazy,ashkenazy,ashkenazy,ashkenazy,ashkenazy,ashkenazy,ashkenazy
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,ashkenazy,ashkenazy,vat44,vat44,ashkenazy,ashkenazy,ashkenazy,ashkenazy
+neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,sinai_no_voc_61,sinai no voc 61,italian_7,italian 7,italian_7,italian 7,italian_7,italian 7
+oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,sephardi,sephardi,italian_7,italian 7,italian_7,italian 7,italian_7,italian 7
+parma3122test2,Parma 3122 test 2,sephardi,sephardi,vat44,vat44,vat44,vat44,vat44,vat44
+printeditionmantoue1544,Print edition Mantoue 1544,ashkenazy,ashkenazy,sephardi,sephardi,sinai_no_voc_61,sinai no voc 61,sinai_no_voc_61,sinai no voc 61
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,sephardi,sephardi,italian_7,italian 7,italian_7,italian 7,italian_7,italian 7
+vat44,Vat 44,ashkenazy,ashkenazy,sephardi,sephardi,sephardi,sephardi,sephardi,sephardi
+vatebr34,Vat Ebr 34,italian_7,italian 7,vat44,vat44,italian_7,italian 7,ashkenazy,ashkenazy
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,italian_7,italian 7,italian_7,italian 7,italian_7,italian 7,italian_7,italian 7
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,biblia9,biblia9,biblia9,biblia9,biblia9,biblia9,biblia9,biblia9
+vaybertaytshexperiment,Vayber Taytsh experiment,sinai_no_voc_61,sinai no voc 61,sinai_no_voc_61,sinai no voc 61,sinai_no_voc_61,sinai no voc 61,sinai_no_voc_61,sinai no voc 61

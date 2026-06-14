@@ -1,0 +1,273 @@
+dataset,dataset_label,row_metric,col_metric,correlation
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,pll_score,pll_score,1.0
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,pll_score,wer,0.9094292077004185
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,pll_score,cer,0.735766774224775
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,pll_score,levenshtein,0.7340880218716392
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,wer,pll_score,0.9094292077004185
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,wer,wer,1.0
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,wer,cer,0.9027970615010067
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,wer,levenshtein,0.8986238734789721
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,cer,pll_score,0.735766774224775
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,cer,wer,0.9027970615010067
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,cer,cer,1.0
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,cer,levenshtein,0.9979019861572047
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,levenshtein,pll_score,0.7340880218716392
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,levenshtein,wer,0.8986238734789721
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,levenshtein,cer,0.9979019861572047
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,levenshtein,levenshtein,1.0
+bnf150test2,BNF 150 test 2,pll_score,pll_score,1.0
+bnf150test2,BNF 150 test 2,pll_score,wer,0.9211282834658691
+bnf150test2,BNF 150 test 2,pll_score,cer,0.7672774139136926
+bnf150test2,BNF 150 test 2,pll_score,levenshtein,0.7618973786313461
+bnf150test2,BNF 150 test 2,wer,pll_score,0.9211282834658691
+bnf150test2,BNF 150 test 2,wer,wer,1.0
+bnf150test2,BNF 150 test 2,wer,cer,0.918735705958603
+bnf150test2,BNF 150 test 2,wer,levenshtein,0.9173425230625007
+bnf150test2,BNF 150 test 2,cer,pll_score,0.7672774139136926
+bnf150test2,BNF 150 test 2,cer,wer,0.918735705958603
+bnf150test2,BNF 150 test 2,cer,cer,1.0
+bnf150test2,BNF 150 test 2,cer,levenshtein,0.9991560035724298
+bnf150test2,BNF 150 test 2,levenshtein,pll_score,0.7618973786313461
+bnf150test2,BNF 150 test 2,levenshtein,wer,0.9173425230625007
+bnf150test2,BNF 150 test 2,levenshtein,cer,0.9991560035724298
+bnf150test2,BNF 150 test 2,levenshtein,levenshtein,1.0
+bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,pll_score,pll_score,1.0
+bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,pll_score,wer,0.1880654425561578
+bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,pll_score,cer,0.18075147780533665
+bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,pll_score,levenshtein,0.34483104475843845
+bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,wer,pll_score,0.1880654425561578
+bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,wer,wer,1.0
+bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,wer,cer,0.9031174301493615
+bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,wer,levenshtein,0.8582085424480049
+bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,cer,pll_score,0.18075147780533665
+bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,cer,wer,0.9031174301493615
+bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,cer,cer,1.0
+bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,cer,levenshtein,0.967461401876034
+bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,levenshtein,pll_score,0.34483104475843845
+bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,levenshtein,wer,0.8582085424480049
+bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,levenshtein,cer,0.967461401876034
+bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,levenshtein,levenshtein,1.0
+constantinople1520,Constantinople 1520,pll_score,pll_score,1.0
+constantinople1520,Constantinople 1520,pll_score,wer,0.1937943742956657
+constantinople1520,Constantinople 1520,pll_score,cer,-0.47322088489659736
+constantinople1520,Constantinople 1520,pll_score,levenshtein,-0.4126701782656379
+constantinople1520,Constantinople 1520,wer,pll_score,0.1937943742956657
+constantinople1520,Constantinople 1520,wer,wer,1.0
+constantinople1520,Constantinople 1520,wer,cer,-0.494314341717388
+constantinople1520,Constantinople 1520,wer,levenshtein,-0.5389918860330926
+constantinople1520,Constantinople 1520,cer,pll_score,-0.47322088489659736
+constantinople1520,Constantinople 1520,cer,wer,-0.494314341717388
+constantinople1520,Constantinople 1520,cer,cer,1.0
+constantinople1520,Constantinople 1520,cer,levenshtein,0.9956134501861159
+constantinople1520,Constantinople 1520,levenshtein,pll_score,-0.4126701782656379
+constantinople1520,Constantinople 1520,levenshtein,wer,-0.5389918860330926
+constantinople1520,Constantinople 1520,levenshtein,cer,0.9956134501861159
+constantinople1520,Constantinople 1520,levenshtein,levenshtein,1.0
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,pll_score,pll_score,1.0
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,pll_score,wer,0.7169072660006279
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,pll_score,cer,0.4529141482158572
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,pll_score,levenshtein,0.44609896589884823
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,wer,pll_score,0.7169072660006279
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,wer,wer,1.0
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,wer,cer,0.8945628393964934
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,wer,levenshtein,0.8975505361914954
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,cer,pll_score,0.4529141482158572
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,cer,wer,0.8945628393964934
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,cer,cer,1.0
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,cer,levenshtein,0.9986354684089069
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,levenshtein,pll_score,0.44609896589884823
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,levenshtein,wer,0.8975505361914954
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,levenshtein,cer,0.9986354684089069
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,levenshtein,levenshtein,1.0
+matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,pll_score,pll_score,1.0
+matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,pll_score,wer,-0.07196282274283637
+matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,pll_score,cer,-0.28371081961467376
+matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,pll_score,levenshtein,-0.28115841441982886
+matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,wer,pll_score,-0.07196282274283637
+matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,wer,wer,1.0
+matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,wer,cer,0.9369721986621306
+matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,wer,levenshtein,0.9393305032868502
+matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,cer,pll_score,-0.28371081961467376
+matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,cer,wer,0.9369721986621306
+matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,cer,cer,1.0
+matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,cer,levenshtein,0.9999623908751966
+matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,levenshtein,pll_score,-0.28115841441982886
+matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,levenshtein,wer,0.9393305032868502
+matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,levenshtein,cer,0.9999623908751966
+matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,levenshtein,levenshtein,1.0
+midrashhagadoldvarim,Midrash Hagadol Dvarim,pll_score,pll_score,1.0
+midrashhagadoldvarim,Midrash Hagadol Dvarim,pll_score,wer,-0.1880677431099997
+midrashhagadoldvarim,Midrash Hagadol Dvarim,pll_score,cer,0.45686897154910333
+midrashhagadoldvarim,Midrash Hagadol Dvarim,pll_score,levenshtein,0.763620451976076
+midrashhagadoldvarim,Midrash Hagadol Dvarim,wer,pll_score,-0.1880677431099997
+midrashhagadoldvarim,Midrash Hagadol Dvarim,wer,wer,1.0
+midrashhagadoldvarim,Midrash Hagadol Dvarim,wer,cer,0.4699089537980391
+midrashhagadoldvarim,Midrash Hagadol Dvarim,wer,levenshtein,0.18789303679706146
+midrashhagadoldvarim,Midrash Hagadol Dvarim,cer,pll_score,0.45686897154910333
+midrashhagadoldvarim,Midrash Hagadol Dvarim,cer,wer,0.4699089537980391
+midrashhagadoldvarim,Midrash Hagadol Dvarim,cer,cer,1.0
+midrashhagadoldvarim,Midrash Hagadol Dvarim,cer,levenshtein,0.8930382954971091
+midrashhagadoldvarim,Midrash Hagadol Dvarim,levenshtein,pll_score,0.763620451976076
+midrashhagadoldvarim,Midrash Hagadol Dvarim,levenshtein,wer,0.18789303679706146
+midrashhagadoldvarim,Midrash Hagadol Dvarim,levenshtein,cer,0.8930382954971091
+midrashhagadoldvarim,Midrash Hagadol Dvarim,levenshtein,levenshtein,1.0
+mshuntington115,Bodleian MS Huntington 115,pll_score,pll_score,1.0
+mshuntington115,Bodleian MS Huntington 115,pll_score,wer,0.4789550920736236
+mshuntington115,Bodleian MS Huntington 115,pll_score,cer,0.43846136306022365
+mshuntington115,Bodleian MS Huntington 115,pll_score,levenshtein,0.5414603092097248
+mshuntington115,Bodleian MS Huntington 115,wer,pll_score,0.4789550920736236
+mshuntington115,Bodleian MS Huntington 115,wer,wer,1.0
+mshuntington115,Bodleian MS Huntington 115,wer,cer,0.9030107911048156
+mshuntington115,Bodleian MS Huntington 115,wer,levenshtein,0.8943875450748795
+mshuntington115,Bodleian MS Huntington 115,cer,pll_score,0.43846136306022365
+mshuntington115,Bodleian MS Huntington 115,cer,wer,0.9030107911048156
+mshuntington115,Bodleian MS Huntington 115,cer,cer,1.0
+mshuntington115,Bodleian MS Huntington 115,cer,levenshtein,0.9868738006137647
+mshuntington115,Bodleian MS Huntington 115,levenshtein,pll_score,0.5414603092097248
+mshuntington115,Bodleian MS Huntington 115,levenshtein,wer,0.8943875450748795
+mshuntington115,Bodleian MS Huntington 115,levenshtein,cer,0.9868738006137647
+mshuntington115,Bodleian MS Huntington 115,levenshtein,levenshtein,1.0
+munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,pll_score,pll_score,1.0
+munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,pll_score,wer,0.40336901443905393
+munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,pll_score,cer,0.26660851931890595
+munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,pll_score,levenshtein,0.5564102814294815
+munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,wer,pll_score,0.40336901443905393
+munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,wer,wer,1.0
+munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,wer,cer,0.9394975726500242
+munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,wer,levenshtein,0.906132090134519
+munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,cer,pll_score,0.26660851931890595
+munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,cer,wer,0.9394975726500242
+munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,cer,cer,1.0
+munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,cer,levenshtein,0.8975130640441736
+munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,levenshtein,pll_score,0.5564102814294815
+munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,levenshtein,wer,0.906132090134519
+munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,levenshtein,cer,0.8975130640441736
+munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,levenshtein,levenshtein,1.0
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,pll_score,pll_score,1.0
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,pll_score,wer,0.4475546859223599
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,pll_score,cer,0.6500503267669424
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,pll_score,levenshtein,0.7435784141642835
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,wer,pll_score,0.4475546859223599
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,wer,wer,1.0
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,wer,cer,0.7646899662322987
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,wer,levenshtein,0.662357603333227
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,cer,pll_score,0.6500503267669424
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,cer,wer,0.7646899662322987
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,cer,cer,1.0
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,cer,levenshtein,0.9087204770002183
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,levenshtein,pll_score,0.7435784141642835
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,levenshtein,wer,0.662357603333227
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,levenshtein,cer,0.9087204770002183
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,levenshtein,levenshtein,1.0
+neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,pll_score,pll_score,1.0
+neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,pll_score,wer,0.06748009087596164
+neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,pll_score,cer,-0.012949628374252899
+neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,pll_score,levenshtein,0.05674435072317137
+neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,wer,pll_score,0.06748009087596164
+neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,wer,wer,1.0
+neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,wer,cer,0.901374574187829
+neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,wer,levenshtein,0.9018203098829554
+neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,cer,pll_score,-0.012949628374252899
+neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,cer,wer,0.901374574187829
+neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,cer,cer,1.0
+neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,cer,levenshtein,0.9955856776120089
+neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,levenshtein,pll_score,0.05674435072317137
+neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,levenshtein,wer,0.9018203098829554
+neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,levenshtein,cer,0.9955856776120089
+neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,levenshtein,levenshtein,1.0
+oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,pll_score,pll_score,1.0
+oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,pll_score,wer,0.44196121765385227
+oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,pll_score,cer,0.3192047500882294
+oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,pll_score,levenshtein,0.31623066631568236
+oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,wer,pll_score,0.44196121765385227
+oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,wer,wer,1.0
+oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,wer,cer,0.9168037513838937
+oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,wer,levenshtein,0.916285506859293
+oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,cer,pll_score,0.3192047500882294
+oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,cer,wer,0.9168037513838937
+oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,cer,cer,1.0
+oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,cer,levenshtein,0.9999787957127388
+oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,levenshtein,pll_score,0.31623066631568236
+oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,levenshtein,wer,0.916285506859293
+oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,levenshtein,cer,0.9999787957127388
+oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,levenshtein,levenshtein,1.0
+parma3122test2,Parma 3122 test 2,pll_score,pll_score,1.0
+parma3122test2,Parma 3122 test 2,pll_score,wer,0.013395632403948287
+parma3122test2,Parma 3122 test 2,pll_score,cer,0.29755833457707037
+parma3122test2,Parma 3122 test 2,pll_score,levenshtein,0.4476137715398327
+parma3122test2,Parma 3122 test 2,wer,pll_score,0.013395632403948287
+parma3122test2,Parma 3122 test 2,wer,wer,1.0
+parma3122test2,Parma 3122 test 2,wer,cer,0.659188796697836
+parma3122test2,Parma 3122 test 2,wer,levenshtein,0.3905170411511867
+parma3122test2,Parma 3122 test 2,cer,pll_score,0.29755833457707037
+parma3122test2,Parma 3122 test 2,cer,wer,0.659188796697836
+parma3122test2,Parma 3122 test 2,cer,cer,1.0
+parma3122test2,Parma 3122 test 2,cer,levenshtein,0.890616187803492
+parma3122test2,Parma 3122 test 2,levenshtein,pll_score,0.4476137715398327
+parma3122test2,Parma 3122 test 2,levenshtein,wer,0.3905170411511867
+parma3122test2,Parma 3122 test 2,levenshtein,cer,0.890616187803492
+parma3122test2,Parma 3122 test 2,levenshtein,levenshtein,1.0
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,pll_score,pll_score,1.0
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,pll_score,wer,0.8762647512473437
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,pll_score,cer,0.9147492621874814
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,pll_score,levenshtein,0.9130797770763756
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,wer,pll_score,0.8762647512473437
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,wer,wer,1.0
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,wer,cer,0.8840299367704479
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,wer,levenshtein,0.8789234572111333
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,cer,pll_score,0.9147492621874814
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,cer,wer,0.8840299367704479
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,cer,cer,1.0
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,cer,levenshtein,0.9983879652461665
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,levenshtein,pll_score,0.9130797770763756
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,levenshtein,wer,0.8789234572111333
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,levenshtein,cer,0.9983879652461665
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,levenshtein,levenshtein,1.0
+vatebr34,Vat Ebr 34,pll_score,pll_score,1.0
+vatebr34,Vat Ebr 34,pll_score,wer,-0.09225515231344725
+vatebr34,Vat Ebr 34,pll_score,cer,0.7328207782908673
+vatebr34,Vat Ebr 34,pll_score,levenshtein,0.7422098534465923
+vatebr34,Vat Ebr 34,wer,pll_score,-0.09225515231344725
+vatebr34,Vat Ebr 34,wer,wer,1.0
+vatebr34,Vat Ebr 34,wer,cer,0.12396146070361162
+vatebr34,Vat Ebr 34,wer,levenshtein,0.04153739832157016
+vatebr34,Vat Ebr 34,cer,pll_score,0.7328207782908673
+vatebr34,Vat Ebr 34,cer,wer,0.12396146070361162
+vatebr34,Vat Ebr 34,cer,cer,1.0
+vatebr34,Vat Ebr 34,cer,levenshtein,0.7337443174596314
+vatebr34,Vat Ebr 34,levenshtein,pll_score,0.7422098534465923
+vatebr34,Vat Ebr 34,levenshtein,wer,0.04153739832157016
+vatebr34,Vat Ebr 34,levenshtein,cer,0.7337443174596314
+vatebr34,Vat Ebr 34,levenshtein,levenshtein,1.0
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,pll_score,pll_score,1.0
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,pll_score,wer,0.6471075499453295
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,pll_score,cer,0.8895993586722607
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,pll_score,levenshtein,0.89069120416425
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,wer,pll_score,0.6471075499453295
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,wer,wer,1.0
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,wer,cer,0.6592359335319012
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,wer,levenshtein,0.6764523432616126
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,cer,pll_score,0.8895993586722607
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,cer,wer,0.6592359335319012
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,cer,cer,1.0
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,cer,levenshtein,0.9525300040482891
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,levenshtein,pll_score,0.89069120416425
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,levenshtein,wer,0.6764523432616126
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,levenshtein,cer,0.9525300040482891
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,levenshtein,levenshtein,1.0
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,pll_score,pll_score,1.0
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,pll_score,wer,0.9795480791641239
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,pll_score,cer,0.9039886785051743
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,pll_score,levenshtein,0.9136818483366848
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,wer,pll_score,0.9795480791641239
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,wer,wer,1.0
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,wer,cer,0.9535368713951383
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,wer,levenshtein,0.9548860061450747
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,cer,pll_score,0.9039886785051743
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,cer,wer,0.9535368713951383
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,cer,cer,1.0
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,cer,levenshtein,0.9976775454045145
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,levenshtein,pll_score,0.9136818483366848
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,levenshtein,wer,0.9548860061450747
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,levenshtein,cer,0.9976775454045145
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,levenshtein,levenshtein,1.0
