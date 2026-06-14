@@ -2,6 +2,7 @@ import time
 import warnings
 import os
 import copy
+from pathlib import Path
 from os import listdir
 from os.path import join
 from threading import RLock
@@ -9,6 +10,7 @@ from threading import Thread
 
 import kraken.rpred
 import mxnet as mx
+import torch
 from PIL import Image
 from kraken import binarization
 from kraken import blla
@@ -21,10 +23,20 @@ from textScoreGenerator.mlm.src.mlm.scorers import MLMScorerPT
 from textScoreGenerator.tokenizer.dictatokenizer import DictaAutoTokenizer
 
 
+REPO_ROOT = Path(__file__).resolve().parent
+SEGMENTATION_MODEL_PATH = REPO_ROOT / "segmentation_models" / "biblialong02_se3_2_tl.mlmodel"
+RECOGNITION_MODELS_PATH = REPO_ROOT / "recognition_models"
+DEFAULT_IMAGES_PATH = REPO_ROOT / "pictures_examples"
+DEFAULT_XML_OUTPUT_PATH = REPO_ROOT / "xml_output"
+DICTA_MODEL_PATH = REPO_ROOT / "textScoreGenerator" / "lm-dicta"
+TORCH_DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+MX_CONTEXTS = [mx.gpu(0)] if mx.context.num_gpus() > 0 else [mx.cpu()]
+
+
 class django_setting():
     def __init__(self):
-        self.PIPELINE = {"segmentation_model": '~/Repositories/model_chooser/segmentation_models/biblialong02_se3_2_tl.mlmodel',
-                         "out_trans_path": 'xml_output'}
+        self.PIPELINE = {"segmentation_model": str(SEGMENTATION_MODEL_PATH),
+                         "out_trans_path": str(DEFAULT_XML_OUTPUT_PATH)}
 
 try:
     from django.conf import settings
@@ -40,6 +52,7 @@ model_lock = RLock()
 printing_lock = RLock()
 xml_outputs = False
 run_with_dicta_model = True
+number_of_lines_to_concat = 1
 
 threads = []
 images_threads = []
@@ -48,19 +61,18 @@ models_load_dict = {}
 segmentations_dict = {}
 xml_dict = {}
 
-ctxs = [mx.cpu()]  # or, e.g., [mx.gpu(0), mx.gpu(1)] todo try to use gpu
-# ctxs = [mx.gpu(0), mx.gpu(1)]
+ctxs = MX_CONTEXTS
 
 # segmentetion_model_path = 'segmentation_models/biblialong02_se3_2_tl.mlmodel'
 segmentetion_model_path = settings.PIPELINE["segmentation_model"]
 xml_output_path = settings.PIPELINE["out_trans_path"]
-images_path = '/home/userm/Repositories/model_chooser/pictures_examples/'
+images_path = str(DEFAULT_IMAGES_PATH)
 
 segment_model = vgsl.TorchVGSLModel.load_model(segmentetion_model_path)
 
 if run_with_dicta_model:
     # init dicta model
-    dicta_model_path = '/home/userm/Repositories/model_chooser/textScoreGenerator/lm-dicta'
+    dicta_model_path = str(DICTA_MODEL_PATH)
     dicta_tokenizer = DictaAutoTokenizer.from_pretrained(dicta_model_path)
     dicta_model, dicta_vocab, _ = get_pretrained(ctxs=ctxs, name="dicta", params_file=dicta_model_path)
     dicta_scorer = MLMScorerPT(dicta_model, dicta_vocab, dicta_tokenizer, ctxs)
@@ -77,27 +89,25 @@ def get_image_text(model_name, baseline_seg, bw_im):
 
 
 def get_score_from_text(pred):
-    # build text
-    score = 0
-    txt = ""
-    for record in pred:
-        txt += str(record) + '\n'
-        if len(txt) > 1 and txt.count('\n') > 2:
-            try:
-                # with printing_lock:
-                #     print(threading.get_native_id(), ": scoring txt: ", txt)
-                #     print("score is: ", score)
-                # score according to this https://github.com/awslabs/mlm-scoring
-                if run_with_dicta_model:
-                    score += (dicta_scorer.score_sentences([txt])[0] * -1)
-                else:
-                    score += (scorer.score_sentences([txt])[0] * -1)
+    lines = [str(record) for record in pred]
+    if not lines:
+        return 0
 
-                txt = ""
-            except Exception as err:
-                with printing_lock:
-                    print("!!!!!!!!", err, "!!!!!!!!!")
-                return score + 99999
+    chunk_size = max(1, int(number_of_lines_to_concat))
+    score = 0
+
+    for start in range(0, len(lines), chunk_size):
+        txt = "\n".join(lines[start:start + chunk_size]) + "\n"
+        try:
+            # score according to this https://github.com/awslabs/mlm-scoring
+            if run_with_dicta_model:
+                score += (dicta_scorer.score_sentences([txt])[0] * -1)
+            else:
+                score += (scorer.score_sentences([txt])[0] * -1)
+        except Exception as err:
+            with printing_lock:
+                print("!!!!!!!!", err, "!!!!!!!!!")
+            return score + 99999
 
     return score
 
@@ -142,7 +152,8 @@ def read_txt_and_score(baseline_seg, bw_im, model_name, image_name):
         print(recs)
     alto = serialization.serialize(recs, image_name=image_name, image_size=bw_im.size,
                                    template='alto')
-    xml_dict[model_name + image_name] = alto
+    xml_dict[f"{model_name}__{Path(image_name).stem}"] = alto
+    return score
 
 
 def finshed_threads_printer():
@@ -169,7 +180,7 @@ def finshed_threads_printer():
         time.sleep(1)
 
 
-def read_and_segment_image(imgs_path, image_name, segmentations):
+def read_and_segment_image(imgs_path, image_name, segmentations, device=None):
     # Read the image via file.stream
     start_time = time.time()
     with printing_lock:
@@ -188,7 +199,7 @@ def read_and_segment_image(imgs_path, image_name, segmentations):
     start_time = time.time()
     # segmentation
     if segmentations is None:
-        baseline_seg = blla.segment(bw_im, model=segment_model)
+        baseline_seg = blla.segment(bw_im, model=segment_model, device=device or TORCH_DEVICE)
     else:
         baseline_seg = segmentations[image_name]
 
@@ -198,7 +209,7 @@ def read_and_segment_image(imgs_path, image_name, segmentations):
     segmentations_dict[image_name] = {"bw_im": bw_im, "baseline_seg": baseline_seg}
 
 
-def model_select(imgs_path, models_dict, segmentations=None, have_xml_outputs=False):
+def model_select(imgs_path, models_dict, segmentations=None, have_xml_outputs=False, concat_lines = 1):
     '''
     :param have_xml_outputs define if xmls of all the models will be saved
     :param imgs_path: str, Path to the folder containing the images to check
@@ -208,9 +219,18 @@ def model_select(imgs_path, models_dict, segmentations=None, have_xml_outputs=Fa
     :return models with accuracy :
     # rc = {"model1": "rank1", "model2": "rank2"}
     '''
+    global number_of_lines_to_concat, xml_outputs, threads, images_threads, models_scores, models_load_dict, segmentations_dict, xml_dict
+
+    number_of_lines_to_concat = concat_lines
     xml_outputs = have_xml_outputs
-    images = [f for f in listdir(imgs_path) if
-              join(imgs_path, f).lower().endswith(('.png', '.jpg', '.jpeg', '.tiff', '.bmp', '.gif'))]
+    threads = []
+    images_threads = []
+    models_scores = {}
+    models_load_dict = {}
+    segmentations_dict = {}
+    xml_dict = {}
+    images = sorted([f for f in listdir(imgs_path) if
+              join(imgs_path, f).lower().endswith(('.png', '.jpg', '.jpeg', '.tiff', '.tif', '.bmp', '.gif'))])
 
     t = Thread(target=finshed_threads_printer, args=[])
     t.start()
@@ -220,13 +240,13 @@ def model_select(imgs_path, models_dict, segmentations=None, have_xml_outputs=Fa
     with printing_lock:
         print('load all requested models')
     for model_name, path in models_dict.items():
-        models_load_dict[model_name] = models.load_any(path)
+        models_load_dict[model_name] = models.load_any(path, device=TORCH_DEVICE)
     with printing_lock:
         print("--- loading models took %s seconds ---" % (time.time() - start_time))
 
     start_time = time.time()
     for image_name in images:
-        t = Thread(target=read_and_segment_image, args=[imgs_path, image_name, segmentations])
+        t = Thread(target=read_and_segment_image, args=[imgs_path, image_name, segmentations, TORCH_DEVICE])
         t.start()
         images_threads.append(t)
 
@@ -262,7 +282,7 @@ def model_select(imgs_path, models_dict, segmentations=None, have_xml_outputs=Fa
             keys_xmls = [k for k in list(xml_dict.keys()) if selected_model in k]
 
         for key in keys_xmls:
-            with open(xml_output_path + '/' + key.replace(".jpg", "") + '.xml', 'w') as fp:
+            with open(Path(xml_output_path) / f"{key}.xml", 'w') as fp:
                 fp.write(xml_dict[key])
     except Exception:
         print("fail to save output xmls")
@@ -276,19 +296,14 @@ def model_select(imgs_path, models_dict, segmentations=None, have_xml_outputs=Fa
 # example
 
 
-# remove this
+def discover_recognition_models(models_root=RECOGNITION_MODELS_PATH):
+    models_root = Path(models_root)
+    return {path.stem: str(path) for path in sorted(models_root.glob("*.mlmodel"))}
+
+
+selected_models = discover_recognition_models()
+
+# scores = model_select(images_path, selected_models, have_xml_outputs=True, concat_lines=2)
 #
-# selected_models = {"ashkenazy": "models/ashkenazy.mlmodel", "sephardi": "models/sephardi.mlmodel",
-#                    "vat44": "models/vat44"
-#                             ".mlmodel", "bibilia9": "models/biblia9.mlmodel"}
-#
-
-selected_models = {"italian_7": "models/newModels/italian_7.mlmodel",
-                   "italian_7_retrained_bnf150_6p": "models/newModels/italian_7_retrained_bnf150_6p.mlmodel",
-                   "prenumeranten": "models/newModels/prenumeranten.mlmodel",
-                   "sinai_no_voc_61": "models/newModels/sinai_no_voc_61.mlmodel"}
-
-scores = model_select(images_path, selected_models, have_xml_outputs=True)
-
-with printing_lock:
-    print(scores)
+# with printing_lock:
+#     print(scores)
