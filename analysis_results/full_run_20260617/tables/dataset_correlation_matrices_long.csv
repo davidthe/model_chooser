@@ -1,0 +1,625 @@
+variant,variant_description,dataset,dataset_label,pages,rows,row_metric,col_metric,pearson_r
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,pll_score,pll_score,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,pll_score,wer,0.9094292077004185
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,pll_score,cer,0.735766774224775
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,pll_score,levenshtein,0.7340880218716392
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,wer,pll_score,0.9094292077004185
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,wer,wer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,wer,cer,0.9027970615010067
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,wer,levenshtein,0.8986238734789721
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,cer,pll_score,0.735766774224775
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,cer,wer,0.9027970615010067
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,cer,cer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,cer,levenshtein,0.9979019861572047
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,levenshtein,pll_score,0.7340880218716392
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,levenshtein,wer,0.8986238734789721
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,levenshtein,cer,0.9979019861572047
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,levenshtein,levenshtein,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150test2,BNF 150 test 2,2,14,pll_score,pll_score,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150test2,BNF 150 test 2,2,14,pll_score,wer,0.9211282834658691
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150test2,BNF 150 test 2,2,14,pll_score,cer,0.7672774139136926
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150test2,BNF 150 test 2,2,14,pll_score,levenshtein,0.7618973786313461
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150test2,BNF 150 test 2,2,14,wer,pll_score,0.9211282834658691
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150test2,BNF 150 test 2,2,14,wer,wer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150test2,BNF 150 test 2,2,14,wer,cer,0.918735705958603
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150test2,BNF 150 test 2,2,14,wer,levenshtein,0.9173425230625007
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150test2,BNF 150 test 2,2,14,cer,pll_score,0.7672774139136926
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150test2,BNF 150 test 2,2,14,cer,wer,0.918735705958603
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150test2,BNF 150 test 2,2,14,cer,cer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150test2,BNF 150 test 2,2,14,cer,levenshtein,0.9991560035724298
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150test2,BNF 150 test 2,2,14,levenshtein,pll_score,0.7618973786313461
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150test2,BNF 150 test 2,2,14,levenshtein,wer,0.9173425230625007
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150test2,BNF 150 test 2,2,14,levenshtein,cer,0.9991560035724298
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bnf150test2,BNF 150 test 2,2,14,levenshtein,levenshtein,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,12,77,pll_score,pll_score,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,12,77,pll_score,wer,0.1880654425561578
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,12,77,pll_score,cer,0.18075147780533665
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,12,77,pll_score,levenshtein,0.34483104475843845
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,12,77,wer,pll_score,0.1880654425561578
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,12,77,wer,wer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,12,77,wer,cer,0.9031174301493615
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,12,77,wer,levenshtein,0.8582085424480049
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,12,77,cer,pll_score,0.18075147780533665
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,12,77,cer,wer,0.9031174301493615
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,12,77,cer,cer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,12,77,cer,levenshtein,0.967461401876034
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,12,77,levenshtein,pll_score,0.34483104475843845
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,12,77,levenshtein,wer,0.8582085424480049
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,12,77,levenshtein,cer,0.967461401876034
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,12,77,levenshtein,levenshtein,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,constantinople1520,Constantinople 1520,1,7,pll_score,pll_score,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,constantinople1520,Constantinople 1520,1,7,pll_score,wer,0.1937943742956657
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,constantinople1520,Constantinople 1520,1,7,pll_score,cer,-0.47322088489659736
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,constantinople1520,Constantinople 1520,1,7,pll_score,levenshtein,-0.4126701782656379
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,constantinople1520,Constantinople 1520,1,7,wer,pll_score,0.1937943742956657
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,constantinople1520,Constantinople 1520,1,7,wer,wer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,constantinople1520,Constantinople 1520,1,7,wer,cer,-0.494314341717388
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,constantinople1520,Constantinople 1520,1,7,wer,levenshtein,-0.5389918860330926
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,constantinople1520,Constantinople 1520,1,7,cer,pll_score,-0.47322088489659736
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,constantinople1520,Constantinople 1520,1,7,cer,wer,-0.494314341717388
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,constantinople1520,Constantinople 1520,1,7,cer,cer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,constantinople1520,Constantinople 1520,1,7,cer,levenshtein,0.9956134501861159
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,constantinople1520,Constantinople 1520,1,7,levenshtein,pll_score,-0.4126701782656379
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,constantinople1520,Constantinople 1520,1,7,levenshtein,wer,-0.5389918860330926
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,constantinople1520,Constantinople 1520,1,7,levenshtein,cer,0.9956134501861159
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,constantinople1520,Constantinople 1520,1,7,levenshtein,levenshtein,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,pll_score,pll_score,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,pll_score,wer,0.7169072660006279
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,pll_score,cer,0.4529141482158572
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,pll_score,levenshtein,0.44609896589884823
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,wer,pll_score,0.7169072660006279
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,wer,wer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,wer,cer,0.8945628393964934
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,wer,levenshtein,0.8975505361914954
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,cer,pll_score,0.4529141482158572
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,cer,wer,0.8945628393964934
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,cer,cer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,cer,levenshtein,0.9986354684089069
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,levenshtein,pll_score,0.44609896589884823
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,levenshtein,wer,0.8975505361914954
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,levenshtein,cer,0.9986354684089069
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,levenshtein,levenshtein,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,1,7,pll_score,pll_score,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,1,7,pll_score,wer,-0.07196282274283637
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,1,7,pll_score,cer,-0.28371081961467376
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,1,7,pll_score,levenshtein,-0.28115841441982886
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,1,7,wer,pll_score,-0.07196282274283637
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,1,7,wer,wer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,1,7,wer,cer,0.9369721986621306
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,1,7,wer,levenshtein,0.9393305032868502
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,1,7,cer,pll_score,-0.28371081961467376
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,1,7,cer,wer,0.9369721986621306
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,1,7,cer,cer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,1,7,cer,levenshtein,0.9999623908751966
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,1,7,levenshtein,pll_score,-0.28115841441982886
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,1,7,levenshtein,wer,0.9393305032868502
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,1,7,levenshtein,cer,0.9999623908751966
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,matteozzmsoxfordhuntington2,Matteo Zz MS Oxford Huntington 2,1,7,levenshtein,levenshtein,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,midrashhagadoldvarim,Midrash Hagadol Dvarim,1,7,pll_score,pll_score,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,midrashhagadoldvarim,Midrash Hagadol Dvarim,1,7,pll_score,wer,-0.1880677431099997
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,midrashhagadoldvarim,Midrash Hagadol Dvarim,1,7,pll_score,cer,0.45686897154910333
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,midrashhagadoldvarim,Midrash Hagadol Dvarim,1,7,pll_score,levenshtein,0.763620451976076
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,midrashhagadoldvarim,Midrash Hagadol Dvarim,1,7,wer,pll_score,-0.1880677431099997
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,midrashhagadoldvarim,Midrash Hagadol Dvarim,1,7,wer,wer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,midrashhagadoldvarim,Midrash Hagadol Dvarim,1,7,wer,cer,0.4699089537980391
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,midrashhagadoldvarim,Midrash Hagadol Dvarim,1,7,wer,levenshtein,0.18789303679706146
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,midrashhagadoldvarim,Midrash Hagadol Dvarim,1,7,cer,pll_score,0.45686897154910333
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,midrashhagadoldvarim,Midrash Hagadol Dvarim,1,7,cer,wer,0.4699089537980391
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,midrashhagadoldvarim,Midrash Hagadol Dvarim,1,7,cer,cer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,midrashhagadoldvarim,Midrash Hagadol Dvarim,1,7,cer,levenshtein,0.8930382954971091
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,midrashhagadoldvarim,Midrash Hagadol Dvarim,1,7,levenshtein,pll_score,0.763620451976076
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,midrashhagadoldvarim,Midrash Hagadol Dvarim,1,7,levenshtein,wer,0.18789303679706146
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,midrashhagadoldvarim,Midrash Hagadol Dvarim,1,7,levenshtein,cer,0.8930382954971091
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,midrashhagadoldvarim,Midrash Hagadol Dvarim,1,7,levenshtein,levenshtein,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,pll_score,pll_score,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,pll_score,wer,0.4789550920736236
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,pll_score,cer,0.43846136306022365
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,pll_score,levenshtein,0.5414603092097248
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,wer,pll_score,0.4789550920736236
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,wer,wer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,wer,cer,0.9030107911048156
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,wer,levenshtein,0.8943875450748795
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,cer,pll_score,0.43846136306022365
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,cer,wer,0.9030107911048156
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,cer,cer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,cer,levenshtein,0.9868738006137647
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,levenshtein,pll_score,0.5414603092097248
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,levenshtein,wer,0.8943875450748795
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,levenshtein,cer,0.9868738006137647
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,levenshtein,levenshtein,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,pll_score,pll_score,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,pll_score,wer,0.40336901443905393
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,pll_score,cer,0.26660851931890595
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,pll_score,levenshtein,0.5564102814294815
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,wer,pll_score,0.40336901443905393
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,wer,wer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,wer,cer,0.9394975726500242
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,wer,levenshtein,0.906132090134519
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,cer,pll_score,0.26660851931890595
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,cer,wer,0.9394975726500242
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,cer,cer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,cer,levenshtein,0.8975130640441736
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,levenshtein,pll_score,0.5564102814294815
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,levenshtein,wer,0.906132090134519
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,levenshtein,cer,0.8975130640441736
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,levenshtein,levenshtein,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,pll_score,pll_score,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,pll_score,wer,0.4475546859223599
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,pll_score,cer,0.6500503267669424
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,pll_score,levenshtein,0.7435784141642835
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,wer,pll_score,0.4475546859223599
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,wer,wer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,wer,cer,0.7646899662322987
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,wer,levenshtein,0.662357603333227
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,cer,pll_score,0.6500503267669424
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,cer,wer,0.7646899662322987
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,cer,cer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,cer,levenshtein,0.9087204770002183
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,levenshtein,pll_score,0.7435784141642835
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,levenshtein,wer,0.662357603333227
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,levenshtein,cer,0.9087204770002183
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,levenshtein,levenshtein,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,2,14,pll_score,pll_score,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,2,14,pll_score,wer,0.06748009087596164
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,2,14,pll_score,cer,-0.012949628374252899
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,2,14,pll_score,levenshtein,0.05674435072317137
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,2,14,wer,pll_score,0.06748009087596164
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,2,14,wer,wer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,2,14,wer,cer,0.901374574187829
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,2,14,wer,levenshtein,0.9018203098829554
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,2,14,cer,pll_score,-0.012949628374252899
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,2,14,cer,wer,0.901374574187829
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,2,14,cer,cer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,2,14,cer,levenshtein,0.9955856776120089
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,2,14,levenshtein,pll_score,0.05674435072317137
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,2,14,levenshtein,wer,0.9018203098829554
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,2,14,levenshtein,cer,0.9955856776120089
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,neubauer147amitaitanchuma2,Neubauer 147 Amitai Tanchuma 2,2,14,levenshtein,levenshtein,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,1,7,pll_score,pll_score,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,1,7,pll_score,wer,0.44196121765385227
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,1,7,pll_score,cer,0.3192047500882294
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,1,7,pll_score,levenshtein,0.31623066631568236
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,1,7,wer,pll_score,0.44196121765385227
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,1,7,wer,wer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,1,7,wer,cer,0.9168037513838937
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,1,7,wer,levenshtein,0.916285506859293
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,1,7,cer,pll_score,0.3192047500882294
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,1,7,cer,wer,0.9168037513838937
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,1,7,cer,cer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,1,7,cer,levenshtein,0.9999787957127388
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,1,7,levenshtein,pll_score,0.31623066631568236
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,1,7,levenshtein,wer,0.916285506859293
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,1,7,levenshtein,cer,0.9999787957127388
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,oppaddfol3test2,Oppenheim Add. Fol. 3 test 2,1,7,levenshtein,levenshtein,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,parma3122test2,Parma 3122 test 2,2,14,pll_score,pll_score,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,parma3122test2,Parma 3122 test 2,2,14,pll_score,wer,0.013395632403948287
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,parma3122test2,Parma 3122 test 2,2,14,pll_score,cer,0.29755833457707037
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,parma3122test2,Parma 3122 test 2,2,14,pll_score,levenshtein,0.4476137715398327
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,parma3122test2,Parma 3122 test 2,2,14,wer,pll_score,0.013395632403948287
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,parma3122test2,Parma 3122 test 2,2,14,wer,wer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,parma3122test2,Parma 3122 test 2,2,14,wer,cer,0.659188796697836
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,parma3122test2,Parma 3122 test 2,2,14,wer,levenshtein,0.3905170411511867
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,parma3122test2,Parma 3122 test 2,2,14,cer,pll_score,0.29755833457707037
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,parma3122test2,Parma 3122 test 2,2,14,cer,wer,0.659188796697836
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,parma3122test2,Parma 3122 test 2,2,14,cer,cer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,parma3122test2,Parma 3122 test 2,2,14,cer,levenshtein,0.890616187803492
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,parma3122test2,Parma 3122 test 2,2,14,levenshtein,pll_score,0.4476137715398327
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,parma3122test2,Parma 3122 test 2,2,14,levenshtein,wer,0.3905170411511867
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,parma3122test2,Parma 3122 test 2,2,14,levenshtein,cer,0.890616187803492
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,parma3122test2,Parma 3122 test 2,2,14,levenshtein,levenshtein,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,pll_score,pll_score,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,pll_score,wer,0.8762647512473437
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,pll_score,cer,0.9147492621874814
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,pll_score,levenshtein,0.9130797770763756
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,wer,pll_score,0.8762647512473437
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,wer,wer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,wer,cer,0.8840299367704479
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,wer,levenshtein,0.8789234572111333
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,cer,pll_score,0.9147492621874814
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,cer,wer,0.8840299367704479
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,cer,cer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,cer,levenshtein,0.9983879652461665
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,levenshtein,pll_score,0.9130797770763756
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,levenshtein,wer,0.8789234572111333
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,levenshtein,cer,0.9983879652461665
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,levenshtein,levenshtein,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatebr34,Vat Ebr 34,6,42,pll_score,pll_score,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatebr34,Vat Ebr 34,6,42,pll_score,wer,-0.09225515231344725
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatebr34,Vat Ebr 34,6,42,pll_score,cer,0.7328207782908673
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatebr34,Vat Ebr 34,6,42,pll_score,levenshtein,0.7422098534465923
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatebr34,Vat Ebr 34,6,42,wer,pll_score,-0.09225515231344725
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatebr34,Vat Ebr 34,6,42,wer,wer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatebr34,Vat Ebr 34,6,42,wer,cer,0.12396146070361162
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatebr34,Vat Ebr 34,6,42,wer,levenshtein,0.04153739832157016
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatebr34,Vat Ebr 34,6,42,cer,pll_score,0.7328207782908673
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatebr34,Vat Ebr 34,6,42,cer,wer,0.12396146070361162
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatebr34,Vat Ebr 34,6,42,cer,cer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatebr34,Vat Ebr 34,6,42,cer,levenshtein,0.7337443174596314
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatebr34,Vat Ebr 34,6,42,levenshtein,pll_score,0.7422098534465923
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatebr34,Vat Ebr 34,6,42,levenshtein,wer,0.04153739832157016
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatebr34,Vat Ebr 34,6,42,levenshtein,cer,0.7337443174596314
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatebr34,Vat Ebr 34,6,42,levenshtein,levenshtein,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,pll_score,pll_score,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,pll_score,wer,0.6471075499453295
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,pll_score,cer,0.8895993586722607
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,pll_score,levenshtein,0.89069120416425
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,wer,pll_score,0.6471075499453295
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,wer,wer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,wer,cer,0.6592359335319012
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,wer,levenshtein,0.6764523432616126
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,cer,pll_score,0.8895993586722607
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,cer,wer,0.6592359335319012
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,cer,cer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,cer,levenshtein,0.9525300040482891
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,levenshtein,pll_score,0.89069120416425
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,levenshtein,wer,0.6764523432616126
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,levenshtein,cer,0.9525300040482891
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,levenshtein,levenshtein,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,pll_score,pll_score,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,pll_score,wer,0.9795480791641239
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,pll_score,cer,0.9039886785051743
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,pll_score,levenshtein,0.9136818483366848
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,wer,pll_score,0.9795480791641239
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,wer,wer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,wer,cer,0.9535368713951383
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,wer,levenshtein,0.9548860061450747
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,cer,pll_score,0.9039886785051743
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,cer,wer,0.9535368713951383
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,cer,cer,1.0
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,cer,levenshtein,0.9976775454045145
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,levenshtein,pll_score,0.9136818483366848
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,levenshtein,wer,0.9548860061450747
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,levenshtein,cer,0.9976775454045145
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,levenshtein,levenshtein,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,pll_score,pll_score,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,pll_score,wer,0.9094292077004185
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,pll_score,cer,0.735766774224775
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,pll_score,levenshtein,0.7340880218716392
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,wer,pll_score,0.9094292077004185
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,wer,wer,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,wer,cer,0.9027970615010067
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,wer,levenshtein,0.8986238734789721
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,cer,pll_score,0.735766774224775
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,cer,wer,0.9027970615010067
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,cer,cer,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,cer,levenshtein,0.9979019861572047
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,levenshtein,pll_score,0.7340880218716392
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,levenshtein,wer,0.8986238734789721
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,levenshtein,cer,0.9979019861572047
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,levenshtein,levenshtein,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,14,pll_score,pll_score,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,14,pll_score,wer,0.9211282834658691
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,14,pll_score,cer,0.7672774139136926
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,14,pll_score,levenshtein,0.7618973786313461
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,14,wer,pll_score,0.9211282834658691
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,14,wer,wer,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,14,wer,cer,0.918735705958603
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,14,wer,levenshtein,0.9173425230625007
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,14,cer,pll_score,0.7672774139136926
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,14,cer,wer,0.918735705958603
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,14,cer,cer,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,14,cer,levenshtein,0.9991560035724298
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,14,levenshtein,pll_score,0.7618973786313461
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,14,levenshtein,wer,0.9173425230625007
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,14,levenshtein,cer,0.9991560035724298
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,14,levenshtein,levenshtein,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,64,pll_score,pll_score,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,64,pll_score,wer,0.24904246092491225
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,64,pll_score,cer,0.2697823975143667
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,64,pll_score,levenshtein,0.4542643471678884
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,64,wer,pll_score,0.24904246092491225
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,64,wer,wer,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,64,wer,cer,0.9077986060816706
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,64,wer,levenshtein,0.8665657018694055
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,64,cer,pll_score,0.2697823975143667
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,64,cer,wer,0.9077986060816706
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,64,cer,cer,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,64,cer,levenshtein,0.9666457977888525
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,64,levenshtein,pll_score,0.4542643471678884
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,64,levenshtein,wer,0.8665657018694055
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,64,levenshtein,cer,0.9666457977888525
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,64,levenshtein,levenshtein,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,pll_score,pll_score,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,pll_score,wer,0.7169072660006279
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,pll_score,cer,0.4529141482158572
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,pll_score,levenshtein,0.44609896589884823
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,wer,pll_score,0.7169072660006279
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,wer,wer,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,wer,cer,0.8945628393964934
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,wer,levenshtein,0.8975505361914954
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,cer,pll_score,0.4529141482158572
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,cer,wer,0.8945628393964934
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,cer,cer,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,cer,levenshtein,0.9986354684089069
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,levenshtein,pll_score,0.44609896589884823
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,levenshtein,wer,0.8975505361914954
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,levenshtein,cer,0.9986354684089069
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,levenshtein,levenshtein,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,pll_score,pll_score,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,pll_score,wer,0.4789550920736236
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,pll_score,cer,0.43846136306022365
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,pll_score,levenshtein,0.5414603092097248
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,wer,pll_score,0.4789550920736236
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,wer,wer,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,wer,cer,0.9030107911048156
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,wer,levenshtein,0.8943875450748795
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,cer,pll_score,0.43846136306022365
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,cer,wer,0.9030107911048156
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,cer,cer,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,cer,levenshtein,0.9868738006137647
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,levenshtein,pll_score,0.5414603092097248
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,levenshtein,wer,0.8943875450748795
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,levenshtein,cer,0.9868738006137647
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,59,levenshtein,levenshtein,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,pll_score,pll_score,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,pll_score,wer,0.40336901443905393
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,pll_score,cer,0.26660851931890595
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,pll_score,levenshtein,0.5564102814294815
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,wer,pll_score,0.40336901443905393
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,wer,wer,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,wer,cer,0.9394975726500242
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,wer,levenshtein,0.906132090134519
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,cer,pll_score,0.26660851931890595
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,cer,wer,0.9394975726500242
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,cer,cer,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,cer,levenshtein,0.8975130640441736
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,levenshtein,pll_score,0.5564102814294815
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,levenshtein,wer,0.906132090134519
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,levenshtein,cer,0.8975130640441736
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,14,levenshtein,levenshtein,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,pll_score,pll_score,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,pll_score,wer,0.4475546859223599
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,pll_score,cer,0.6500503267669424
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,pll_score,levenshtein,0.7435784141642835
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,wer,pll_score,0.4475546859223599
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,wer,wer,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,wer,cer,0.7646899662322987
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,wer,levenshtein,0.662357603333227
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,cer,pll_score,0.6500503267669424
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,cer,wer,0.7646899662322987
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,cer,cer,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,cer,levenshtein,0.9087204770002183
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,levenshtein,pll_score,0.7435784141642835
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,levenshtein,wer,0.662357603333227
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,levenshtein,cer,0.9087204770002183
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,levenshtein,levenshtein,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,pll_score,pll_score,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,pll_score,wer,0.8762647512473437
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,pll_score,cer,0.9147492621874814
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,pll_score,levenshtein,0.9130797770763756
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,wer,pll_score,0.8762647512473437
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,wer,wer,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,wer,cer,0.8840299367704479
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,wer,levenshtein,0.8789234572111333
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,cer,pll_score,0.9147492621874814
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,cer,wer,0.8840299367704479
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,cer,cer,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,cer,levenshtein,0.9983879652461665
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,levenshtein,pll_score,0.9130797770763756
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,levenshtein,wer,0.8789234572111333
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,levenshtein,cer,0.9983879652461665
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,levenshtein,levenshtein,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,35,pll_score,pll_score,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,35,pll_score,wer,0.023479875290431745
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,35,pll_score,cer,0.749193331929403
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,35,pll_score,levenshtein,0.7119085580381961
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,35,wer,pll_score,0.023479875290431745
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,35,wer,wer,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,35,wer,cer,0.16879514679450752
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,35,wer,levenshtein,0.16134666338439663
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,35,cer,pll_score,0.749193331929403
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,35,cer,wer,0.16879514679450752
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,35,cer,cer,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,35,cer,levenshtein,0.7529713179404025
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,35,levenshtein,pll_score,0.7119085580381961
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,35,levenshtein,wer,0.16134666338439663
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,35,levenshtein,cer,0.7529713179404025
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,35,levenshtein,levenshtein,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,pll_score,pll_score,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,pll_score,wer,0.6471075499453295
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,pll_score,cer,0.8895993586722607
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,pll_score,levenshtein,0.89069120416425
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,wer,pll_score,0.6471075499453295
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,wer,wer,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,wer,cer,0.6592359335319012
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,wer,levenshtein,0.6764523432616126
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,cer,pll_score,0.8895993586722607
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,cer,wer,0.6592359335319012
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,cer,cer,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,cer,levenshtein,0.9525300040482891
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,levenshtein,pll_score,0.89069120416425
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,levenshtein,wer,0.6764523432616126
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,levenshtein,cer,0.9525300040482891
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,levenshtein,levenshtein,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,pll_score,pll_score,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,pll_score,wer,0.9795480791641239
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,pll_score,cer,0.9039886785051743
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,pll_score,levenshtein,0.9136818483366848
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,wer,pll_score,0.9795480791641239
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,wer,wer,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,wer,cer,0.9535368713951383
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,wer,levenshtein,0.9548860061450747
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,cer,pll_score,0.9039886785051743
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,cer,wer,0.9535368713951383
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,cer,cer,1.0
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,cer,levenshtein,0.9976775454045145
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,levenshtein,pll_score,0.9136818483366848
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,levenshtein,wer,0.9548860061450747
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,levenshtein,cer,0.9976775454045145
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,levenshtein,levenshtein,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,18,pll_score,pll_score,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,18,pll_score,wer,0.918661399469449
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,18,pll_score,cer,0.7988392674304542
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,18,pll_score,levenshtein,0.8015537998814284
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,18,wer,pll_score,0.918661399469449
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,18,wer,wer,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,18,wer,cer,0.9399715822488507
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,18,wer,levenshtein,0.9319466879700091
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,18,cer,pll_score,0.7988392674304542
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,18,cer,wer,0.9399715822488507
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,18,cer,cer,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,18,cer,levenshtein,0.9966990816752973
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,18,levenshtein,pll_score,0.8015537998814284
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,18,levenshtein,wer,0.9319466879700091
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,18,levenshtein,cer,0.9966990816752973
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,18,levenshtein,levenshtein,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,12,pll_score,pll_score,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,12,pll_score,wer,0.9127353969678372
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,12,pll_score,cer,0.825481827232669
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,12,pll_score,levenshtein,0.8193858851047509
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,12,wer,pll_score,0.9127353969678372
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,12,wer,wer,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,12,wer,cer,0.9728062462522103
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,12,wer,levenshtein,0.971426499045278
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,12,cer,pll_score,0.825481827232669
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,12,cer,wer,0.9728062462522103
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,12,cer,cer,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,12,cer,levenshtein,0.998176463820778
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,12,levenshtein,pll_score,0.8193858851047509
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,12,levenshtein,wer,0.971426499045278
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,12,levenshtein,cer,0.998176463820778
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bnf150test2,BNF 150 test 2,2,12,levenshtein,levenshtein,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,49,pll_score,pll_score,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,49,pll_score,wer,0.1118289497002293
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,49,pll_score,cer,-0.06228272676971146
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,49,pll_score,levenshtein,0.20228989656684337
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,49,wer,pll_score,0.1118289497002293
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,49,wer,wer,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,49,wer,cer,0.9251894256890562
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,49,wer,levenshtein,0.8871493773545525
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,49,cer,pll_score,-0.06228272676971146
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,49,cer,wer,0.9251894256890562
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,49,cer,cer,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,49,cer,levenshtein,0.9393714600515158
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,49,levenshtein,pll_score,0.20228989656684337
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,49,levenshtein,wer,0.8871493773545525
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,49,levenshtein,cer,0.9393714600515158
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,bodleianoppenheimad,Bodleian Oppenheim Add. 4-128,10,49,levenshtein,levenshtein,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,12,pll_score,pll_score,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,12,pll_score,wer,0.8235571885590769
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,12,pll_score,cer,0.7220173008045813
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,12,pll_score,levenshtein,0.7196506838807296
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,12,wer,pll_score,0.8235571885590769
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,12,wer,wer,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,12,wer,cer,0.9506556791577684
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,12,wer,levenshtein,0.9558816819089806
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,12,cer,pll_score,0.7220173008045813
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,12,cer,wer,0.9506556791577684
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,12,cer,cer,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,12,cer,levenshtein,0.9981770281600187
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,12,levenshtein,pll_score,0.7196506838807296
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,12,levenshtein,wer,0.9558816819089806
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,12,levenshtein,cer,0.9981770281600187
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,12,levenshtein,levenshtein,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,50,pll_score,pll_score,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,50,pll_score,wer,0.13199198666859077
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,50,pll_score,cer,-0.012987712725168963
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,50,pll_score,levenshtein,0.10100361573417901
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,50,wer,pll_score,0.13199198666859077
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,50,wer,wer,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,50,wer,cer,0.8257905020338937
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,50,wer,levenshtein,0.8096504540114305
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,50,cer,pll_score,-0.012987712725168963
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,50,cer,wer,0.8257905020338937
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,50,cer,cer,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,50,cer,levenshtein,0.9827242169991788
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,50,levenshtein,pll_score,0.10100361573417901
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,50,levenshtein,wer,0.8096504540114305
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,50,levenshtein,cer,0.9827242169991788
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,mshuntington115,Bodleian MS Huntington 115,9,50,levenshtein,levenshtein,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,11,pll_score,pll_score,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,11,pll_score,wer,0.3673360089878463
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,11,pll_score,cer,0.14732205934882528
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,11,pll_score,levenshtein,0.3488853195766622
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,11,wer,pll_score,0.3673360089878463
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,11,wer,wer,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,11,wer,cer,0.9297280418411616
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,11,wer,levenshtein,0.9748444771722916
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,11,cer,pll_score,0.14732205934882528
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,11,cer,wer,0.9297280418411616
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,11,cer,cer,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,11,cer,levenshtein,0.95418494127652
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,11,levenshtein,pll_score,0.3488853195766622
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,11,levenshtein,wer,0.9748444771722916
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,11,levenshtein,cer,0.95418494127652
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munich229amitaitanchuma2,Munich 229 Amitai Tanchuma 2,2,11,levenshtein,levenshtein,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,6,pll_score,pll_score,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,6,pll_score,wer,-0.21274561356963353
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,6,pll_score,cer,-0.016439322062093184
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,6,pll_score,levenshtein,0.09433874038499872
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,6,wer,pll_score,-0.21274561356963353
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,6,wer,wer,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,6,wer,cer,0.9467875929326135
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,6,wer,levenshtein,0.8608618065643935
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,6,cer,pll_score,-0.016439322062093184
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,6,cer,wer,0.9467875929326135
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,6,cer,cer,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,6,cer,levenshtein,0.7845009676434875
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,6,levenshtein,pll_score,0.09433874038499872
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,6,levenshtein,wer,0.8608618065643935
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,6,levenshtein,cer,0.7845009676434875
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,6,levenshtein,levenshtein,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,12,pll_score,pll_score,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,12,pll_score,wer,0.8024884652930233
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,12,pll_score,cer,0.7530289600892593
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,12,pll_score,levenshtein,0.7605715116218459
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,12,wer,pll_score,0.8024884652930233
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,12,wer,wer,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,12,wer,cer,0.9496896444735923
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,12,wer,levenshtein,0.9474041573598656
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,12,cer,pll_score,0.7530289600892593
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,12,cer,wer,0.9496896444735923
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,12,cer,cer,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,12,cer,levenshtein,0.9965877816056494
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,12,levenshtein,pll_score,0.7605715116218459
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,12,levenshtein,wer,0.9474041573598656
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,12,levenshtein,cer,0.9965877816056494
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,12,levenshtein,levenshtein,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,30,pll_score,pll_score,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,30,pll_score,wer,-0.08967041747573358
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,30,pll_score,cer,0.6529510508873692
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,30,pll_score,levenshtein,0.5731069816305209
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,30,wer,pll_score,-0.08967041747573358
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,30,wer,wer,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,30,wer,cer,0.0402243262209548
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,30,wer,levenshtein,0.06763978799306856
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,30,cer,pll_score,0.6529510508873692
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,30,cer,wer,0.0402243262209548
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,30,cer,cer,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,30,cer,levenshtein,0.12637685999833748
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,30,levenshtein,pll_score,0.5731069816305209
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,30,levenshtein,wer,0.06763978799306856
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,30,levenshtein,cer,0.12637685999833748
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatebr34,Vat Ebr 34,5,30,levenshtein,levenshtein,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,12,pll_score,pll_score,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,12,pll_score,wer,0.33851855676988346
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,12,pll_score,cer,0.7734386644554218
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,12,pll_score,levenshtein,0.8868568379322018
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,12,wer,pll_score,0.33851855676988346
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,12,wer,wer,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,12,wer,cer,0.2141353593745895
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,12,wer,levenshtein,0.3013670300474271
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,12,cer,pll_score,0.7734386644554218
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,12,cer,wer,0.2141353593745895
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,12,cer,cer,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,12,cer,levenshtein,0.7266120520187468
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,12,levenshtein,pll_score,0.8868568379322018
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,12,levenshtein,wer,0.3013670300474271
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,12,levenshtein,cer,0.7266120520187468
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,12,levenshtein,levenshtein,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,12,pll_score,pll_score,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,12,pll_score,wer,0.9619797688032574
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,12,pll_score,cer,0.8772535658286024
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,12,pll_score,levenshtein,0.9117183769315845
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,12,wer,pll_score,0.9619797688032574
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,12,wer,wer,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,12,wer,cer,0.9432335424091124
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,12,wer,levenshtein,0.9515650993586355
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,12,cer,pll_score,0.8772535658286024
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,12,cer,wer,0.9432335424091124
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,12,cer,cer,1.0
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,12,cer,levenshtein,0.9921681100178772
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,12,levenshtein,pll_score,0.9117183769315845
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,12,levenshtein,wer,0.9515650993586355
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,12,levenshtein,cer,0.9921681100178772
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,12,levenshtein,levenshtein,1.0

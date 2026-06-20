@@ -1,0 +1,26 @@
+{
+  "run_id": "full_run_20260617_selected_handwritings",
+  "source_run_id": "full_run_20260617",
+  "selected_datasets": [
+    "vatican44amitaimidrashtanchu",
+    "bnf150test2",
+    "bnf150amitaitanchuma2",
+    "seferhaikarimbnf740experimen",
+    "huntingtonamitaitanchuma2",
+    "vatican34midrashtanchu",
+    "munichstaatsbibliothektest2"
+  ],
+  "selected_dataset_labels": [
+    "BNF 150 Amitai Tanchuma 2",
+    "BNF 150 test 2",
+    "Huntington Amitai Tanchuma 2",
+    "Munich Staatsbibliothek test 2",
+    "Sefer Haikarim BNF 740 experiment",
+    "Vatican 34 Midrash Tanchuma",
+    "Vatican 44 Amitai Midrash Tanchuma"
+  ],
+  "page_rows": 217,
+  "base_valid_rows": 103,
+  "line_rows": 3388,
+  "results_root": "analysis_results/full_run_20260617_selected_handwritings"
+}

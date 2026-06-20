@@ -1,0 +1,4 @@
+variant,variant_description,datasets_used_pll_wer,mean_pll_vs_wer,mean_pll_vs_cer,mean_pll_vs_levenshtein,mean_wer_vs_cer,mean_cer_vs_levenshtein
+base_valid_all_pages,Base-valid rows before removing diagnostic pages,7,0.7854199747780104,0.7591922803551691,0.7718736585919181,0.8539411878265556,0.9790013499768185
+base_valid_after_worst20_trim,Base-valid rows after removing the worst 20% diagnostic pages,7,0.7854199747780104,0.7591922803551691,0.7718736585919181,0.8539411878265556,0.9790013499768185
+high_confidence_after_worst20_trim,High-confidence rows after removing the worst 20% diagnostic pages,7,0.6493135946132705,0.6762314662541279,0.7134394051053629,0.8453256638355339,0.9275602121345506

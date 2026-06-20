@@ -1,0 +1,11 @@
+evidence,comparison,scope,value,stat,n,interpretation
+No-GT normalized page score,PLL / predicted char vs WER,"Full run, high-confidence rows, worst 20% diagnostic pages removed",0.7940985266882197,Pearson r,224,Operational no-GT score crosses the strong-correlation threshold.
+No-GT absolute page score,Raw PLL vs Levenshtein,"Full run, high-confidence rows, worst 20% diagnostic pages removed",0.7592645501457687,Pearson r,224,Raw PLL tracks absolute edit burden.
+No-GT absolute validation ceiling,Raw PLL vs Levenshtein,Full base-valid run before diagnostic page trim,0.921979888631312,Pearson r,351,The strongest corpus-level result: PLL strongly predicts absolute GT edit distance.
+Selected handwriting mean,Mean dataset PLL vs WER,Mean of 7 selected handwriting-level correlations,0.7854199747780104,Mean Pearson r,7,Every selected dataset gets equal weight; PLL-WER remains strong.
+Selected handwriting mean,Mean dataset PLL vs CER,Mean of 7 selected handwriting-level correlations,0.7591922803551691,Mean Pearson r,7,The same equal-weight dataset view also supports PLL-CER.
+Selected handwriting mean,Mean dataset PLL vs Levenshtein,Mean of 7 selected handwriting-level correlations,0.7718736585919181,Mean Pearson r,7,PLL is consistently aligned with absolute edit distance in the selected sets.
+Selected model choice,PLL model rank vs WER model rank,7 selected handwriting sets aggregated by model,0.9642857142857145,Spearman rho,7,Choosing models by PLL gives almost the same ordering as choosing by WER.
+Full model choice,PLL model rank vs WER model rank,"Full run after diagnostic page trim, aggregated by model",0.8571428571428573,Spearman rho,7,Model-level ranking remains strong on the broader corpus.
+Validation-only upper bound,PLL / mean GT-pred length vs WER,"Full run, high-confidence rows, worst 20% diagnostic pages removed",0.848605112805047,Pearson r,224,"This is the best normalized validation score, but it uses GT length and is not no-GT."
+Full dataset equal-weight mean,Mean dataset PLL vs Levenshtein,Mean of all available handwriting-level correlations after diagnostic trim,0.6970144641807926,Mean Pearson r,11,The full set is moderate-to-strong and just below the 0.70 threshold.

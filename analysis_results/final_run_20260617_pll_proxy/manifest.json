@@ -1,0 +1,22 @@
+{
+  "run_id": "final_run_20260617_pll_proxy",
+  "source_runs": [
+    "full_run_20260617",
+    "full_run_20260617_selected_handwritings"
+  ],
+  "claim": "PLL-only scores can act as no-GT proxies for OCR model ranking and page quality screening.",
+  "report_md": "analysis_results/final_run_20260617_pll_proxy/report.md",
+  "report_pdf": "analysis_results/final_run_20260617_pll_proxy/report.pdf",
+  "figures": {
+    "workflow": "analysis_results/final_run_20260617_pll_proxy/figures/workflow_gt_vs_pll.png",
+    "scatter_pred_wer": "analysis_results/final_run_20260617_pll_proxy/figures/scatter_pll_per_pred_char_vs_wer.png",
+    "scatter_raw_lev": "analysis_results/final_run_20260617_pll_proxy/figures/scatter_raw_pll_vs_levenshtein.png",
+    "selected_heatmap": "analysis_results/final_run_20260617_pll_proxy/figures/selected_mean_dataset_correlation_heatmap.png",
+    "handwriting_bars": "analysis_results/final_run_20260617_pll_proxy/figures/selected_handwriting_pll_gt_correlation_bars.png",
+    "rank_agreement": "analysis_results/final_run_20260617_pll_proxy/figures/selected_model_rank_agreement.png",
+    "example_good": "analysis_results/final_run_20260617_pll_proxy/figures/example_vatican44_proxy_matches_gt.png",
+    "example_second": "analysis_results/final_run_20260617_pll_proxy/figures/example_bnf150_proxy_matches_gt.png",
+    "example_caveat": "analysis_results/final_run_20260617_pll_proxy/figures/example_munich_proxy_caveat.png"
+  },
+  "evidence_rows": 10
+}

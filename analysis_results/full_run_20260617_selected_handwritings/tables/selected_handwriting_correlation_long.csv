@@ -1,0 +1,113 @@
+dataset,dataset_label,pages,rows,row_metric,col_metric,pearson_r
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,pll_score,pll_score,1.0
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,pll_score,wer,0.9094292077004185
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,pll_score,cer,0.735766774224775
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,pll_score,levenshtein,0.7340880218716392
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,wer,pll_score,0.9094292077004185
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,wer,wer,1.0
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,wer,cer,0.9027970615010067
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,wer,levenshtein,0.8986238734789721
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,cer,pll_score,0.735766774224775
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,cer,wer,0.9027970615010067
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,cer,cer,1.0
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,cer,levenshtein,0.9979019861572047
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,levenshtein,pll_score,0.7340880218716392
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,levenshtein,wer,0.8986238734789721
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,levenshtein,cer,0.9979019861572047
+bnf150amitaitanchuma2,BNF 150 Amitai Tanchuma 2,3,21,levenshtein,levenshtein,1.0
+bnf150test2,BNF 150 test 2,2,14,pll_score,pll_score,1.0
+bnf150test2,BNF 150 test 2,2,14,pll_score,wer,0.9211282834658691
+bnf150test2,BNF 150 test 2,2,14,pll_score,cer,0.7672774139136926
+bnf150test2,BNF 150 test 2,2,14,pll_score,levenshtein,0.7618973786313461
+bnf150test2,BNF 150 test 2,2,14,wer,pll_score,0.9211282834658691
+bnf150test2,BNF 150 test 2,2,14,wer,wer,1.0
+bnf150test2,BNF 150 test 2,2,14,wer,cer,0.918735705958603
+bnf150test2,BNF 150 test 2,2,14,wer,levenshtein,0.9173425230625007
+bnf150test2,BNF 150 test 2,2,14,cer,pll_score,0.7672774139136926
+bnf150test2,BNF 150 test 2,2,14,cer,wer,0.918735705958603
+bnf150test2,BNF 150 test 2,2,14,cer,cer,1.0
+bnf150test2,BNF 150 test 2,2,14,cer,levenshtein,0.9991560035724298
+bnf150test2,BNF 150 test 2,2,14,levenshtein,pll_score,0.7618973786313461
+bnf150test2,BNF 150 test 2,2,14,levenshtein,wer,0.9173425230625007
+bnf150test2,BNF 150 test 2,2,14,levenshtein,cer,0.9991560035724298
+bnf150test2,BNF 150 test 2,2,14,levenshtein,levenshtein,1.0
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,pll_score,pll_score,1.0
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,pll_score,wer,0.7169072660006279
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,pll_score,cer,0.4529141482158572
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,pll_score,levenshtein,0.44609896589884823
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,wer,pll_score,0.7169072660006279
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,wer,wer,1.0
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,wer,cer,0.8945628393964934
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,wer,levenshtein,0.8975505361914954
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,cer,pll_score,0.4529141482158572
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,cer,wer,0.8945628393964934
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,cer,cer,1.0
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,cer,levenshtein,0.9986354684089069
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,levenshtein,pll_score,0.44609896589884823
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,levenshtein,wer,0.8975505361914954
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,levenshtein,cer,0.9986354684089069
+huntingtonamitaitanchuma2,Huntington Amitai Tanchuma 2,2,14,levenshtein,levenshtein,1.0
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,pll_score,pll_score,1.0
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,pll_score,wer,0.4475546859223599
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,pll_score,cer,0.6500503267669424
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,pll_score,levenshtein,0.7435784141642835
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,wer,pll_score,0.4475546859223599
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,wer,wer,1.0
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,wer,cer,0.7646899662322987
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,wer,levenshtein,0.662357603333227
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,cer,pll_score,0.6500503267669424
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,cer,wer,0.7646899662322987
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,cer,cer,1.0
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,cer,levenshtein,0.9087204770002183
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,levenshtein,pll_score,0.7435784141642835
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,levenshtein,wer,0.662357603333227
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,levenshtein,cer,0.9087204770002183
+munichstaatsbibliothektest2,Munich Staatsbibliothek test 2,2,12,levenshtein,levenshtein,1.0
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,pll_score,pll_score,1.0
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,pll_score,wer,0.8762647512473437
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,pll_score,cer,0.9147492621874814
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,pll_score,levenshtein,0.9130797770763756
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,wer,pll_score,0.8762647512473437
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,wer,wer,1.0
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,wer,cer,0.8840299367704479
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,wer,levenshtein,0.8789234572111333
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,cer,pll_score,0.9147492621874814
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,cer,wer,0.8840299367704479
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,cer,cer,1.0
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,cer,levenshtein,0.9983879652461665
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,levenshtein,pll_score,0.9130797770763756
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,levenshtein,wer,0.8789234572111333
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,levenshtein,cer,0.9983879652461665
+seferhaikarimbnf740experimen,Sefer Haikarim BNF 740 experiment,2,14,levenshtein,levenshtein,1.0
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,pll_score,pll_score,1.0
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,pll_score,wer,0.6471075499453295
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,pll_score,cer,0.8895993586722607
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,pll_score,levenshtein,0.89069120416425
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,wer,pll_score,0.6471075499453295
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,wer,wer,1.0
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,wer,cer,0.6592359335319012
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,wer,levenshtein,0.6764523432616126
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,cer,pll_score,0.8895993586722607
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,cer,wer,0.6592359335319012
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,cer,cer,1.0
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,cer,levenshtein,0.9525300040482891
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,levenshtein,pll_score,0.89069120416425
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,levenshtein,wer,0.6764523432616126
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,levenshtein,cer,0.9525300040482891
+vatican34midrashtanchu,Vatican 34 Midrash Tanchuma,2,14,levenshtein,levenshtein,1.0
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,pll_score,pll_score,1.0
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,pll_score,wer,0.9795480791641239
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,pll_score,cer,0.9039886785051743
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,pll_score,levenshtein,0.9136818483366848
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,wer,pll_score,0.9795480791641239
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,wer,wer,1.0
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,wer,cer,0.9535368713951383
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,wer,levenshtein,0.9548860061450747
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,cer,pll_score,0.9039886785051743
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,cer,wer,0.9535368713951383
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,cer,cer,1.0
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,cer,levenshtein,0.9976775454045145
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,levenshtein,pll_score,0.9136818483366848
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,levenshtein,wer,0.9548860061450747
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,levenshtein,cer,0.9976775454045145
+vatican44amitaimidrashtanchu,Vatican 44 Amitai Midrash Tanchuma,2,14,levenshtein,levenshtein,1.0
